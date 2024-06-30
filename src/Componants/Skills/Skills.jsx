@@ -12,7 +12,7 @@ const Skills = () => {
                     <Box  text="75%" subtext="React(Intermediate)"/>
                 </div>
                 {/* connecting line 1 */}
-                <div className="absolute left-[350px] top-[170px] border-l-[10px] border-b-[10px] rounded-bl-[18px]  border-[#1E3660]  h-14 w-80">
+                <div className="absolute left-[350px] top-[170px] border-l-[10px] border-b-[10px] rounded-bl-[18px]  border-[#1E3660]  h-14 w-60">
                 </div>
             </div>
 
@@ -23,7 +23,7 @@ const Skills = () => {
                     <Box  text="50%" subtext="React(Intermediate)"/>
                 </div>
                 {/* connecting line 2 */}
-                <div className="absolute right-[350px] top-[300px] border-r-[10px] border-b-[10px] rounded-br-[18px]  border-[#1E3660]  h-14 w-80">
+                <div className="absolute right-[349px] top-[300px] border-r-[10px] border-b-[10px] rounded-br-[18px]  border-[#1E3660]  h-14 w-60">
                 </div>
             </div>
 
@@ -33,13 +33,13 @@ const Skills = () => {
                     <Box  text="25%" subtext="React(Intermediate) "/>
                 </div>
                 {/* connecting line 3 */}
-                <div className="absolute left-[350px] top-[130px] border-l-[10px] border-b-[10px] rounded-bl-[18px] border-[#1E3660]  h-14 w-80">
+                <div className="absolute left-[350px] top-[130px] border-l-[10px] border-b-[10px] rounded-bl-[18px] border-[#1E3660]  h-14 w-60">
                 </div>
                 
             </div>
 
             {/* box 4 */}
-            <div className="relative h-full grid grid-rows-2  gap-4 items-end pl-7">
+            <div className="relative h-full grid grid-rows-2 gap-4 items-end pl-7">
                 <div className="-mt-10 row-span-2 flex justify-start ">
                     <Box  text="100%" subtext="React(Intermediate)"/>
                 </div>
