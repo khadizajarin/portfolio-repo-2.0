@@ -4,7 +4,7 @@ import { useState } from 'react';
 
 const Box = ({ text, subtext }) => {
     const percent = parseInt(text);
-    const [percentage, setPercentage] = useState(percent);
+    const [percentage] = useState(percent);
 
     // Calculate the total perimeter of the box
     const width = 350;

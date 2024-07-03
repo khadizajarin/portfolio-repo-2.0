@@ -1,4 +1,4 @@
-import Box from "../CommonComps/Box";
+import Box from "../CommonComps/Box/Box";
 
 
 const Skills = () => {
