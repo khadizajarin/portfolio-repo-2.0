@@ -2,7 +2,7 @@
 
 const Looking = () => {
     return (
-        <div className=" m-8 relative  flex flex-col justify-center items-center h-[300px]   ">
+        <div className=" m-8 relative  flex flex-col justify-center items-center h-[400px]   ">
             {/* <!-- First vertical line --> */}
             <div className="absolute h-full w-1 bg-[#768B9C] opacity-10 left-[483px]"></div>
             {/* <!-- Second vertical line --> */}
