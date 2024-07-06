@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import './Box.css'; // Ensure you import the CSS file
+import './Box.css';
 import { useState } from 'react';
 
 const Box = ({ text, subtext }) => {
@@ -19,17 +19,17 @@ const Box = ({ text, subtext }) => {
     const borderGradient = `linear-gradient(to right, #1E3660 ${gradientPercentage}%, transparent ${gradientPercentage}%)`;
 
     return (
-        <div className="relative flex justify-center items-center w-[350px] h-[170px]">
+        <div className="relative flex justify-center items-center lg:w-[350px] w-[120px] lg:h-[170px] h-[85px]">
             {/* Outer border */}
-            <div className="absolute w-full h-full rounded-[18px] border-[10px] border-[#A8B2C1]"></div>
+            <div className="absolute w-full h-full lg:rounded-[18px] rounded-[9px] lg:border-[10px] border-[5px] border-[#A8B2C1]"></div>
             
             {/* Gradient border */}
-            <div className="absolute w-full h-full rounded-[18px]" style={{ background: borderGradient, borderRadius: '18px' }}></div>
+            <div className="absolute w-full h-full lg:rounded-[18px] rounded-[9px]" style={{ background: borderGradient }}></div>
             
             {/* Main content */}
-            <div className="relative z-10 flex flex-col justify-center items-center w-[330px] h-[150px] rounded-[8px] bg-[#F4F5F7]">
-                <div className="text-5xl font-bold text-[#1E3660]">{text}</div>
-                <div className="text-xl font-bold text-[#1E3660]">{subtext}</div>
+            <div className="relative z-10 flex flex-col justify-center items-center lg:w-[330px] lg:h-[150px] w-[110px] h-[75px] lg:rounded-[8px] rounded-[4px] bg-[#F4F5F7]">
+                <div className="lg:text-5xl text-base font-bold text-[#1E3660]">{text}</div>
+                <div className="lg:text-xl text-xs font-bold text-[#1E3660] text-center">{subtext}</div>
             </div>
         </div>
     );

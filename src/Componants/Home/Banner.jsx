@@ -22,8 +22,8 @@ const Banner = ({contactRef}) => {
                 <div className=" w-full bg-white ">
                     {/* <img src={border} alt="" className="absolute w-[572px] right-[87px] top-[102px] mb-[3px]" /> */}
                     {/* top border */}
-                    <div className="flex justify-center items-center absolute z-10 right-[130px] ">
-                        <div className="border-b-[3px] border-white w-4"></div>
+                    <div className="flex justify-center items-center absolute z-10  ">
+                        <div className="border-t-[3px] border-white w-4"></div>
                         <div className="border-t-[3px] border-white w-2 ml-8"></div>
                         <div className="border-t-[3px] border-white w-10 ml-2"></div>
                         <div className="border-t-[3px] border-white w-28 ml-10"></div>

@@ -11,6 +11,7 @@ import Skills from './Componants/Skills/Skills'
 import Workflow from './Componants/Workflow/Workflow'
 import Navbar from './Componants/Home/Navbar'
 import Banner from './Componants/Home/Banner'
+import ClientsLove from './Componants/ClientsLove/ClientsLove'
 // import Navbar from './Componants/Home/Navbar'
 
 function App() {
@@ -30,11 +31,12 @@ function App() {
     <Banner contactRef={contactRef}></Banner>
     <About></About>
     <Skills ref={skillsRef}></Skills>
-    {/* <Workflow ref={workflowRef}></Workflow> */}
-    {/* <Experience contactRef={contactRef} ref={experiencesRef}></Experience> */}
-    {/* <Looking></Looking> */}
-    {/* <Contact ref={contactRef} ></Contact> */}
-    {/* <Footer></Footer> */}
+    <Workflow ref={workflowRef}></Workflow>
+    <Experience contactRef={contactRef} ref={experiencesRef}></Experience>
+    <ClientsLove></ClientsLove>
+    <Looking></Looking>
+    <Contact ref={contactRef} ></Contact>
+    <Footer></Footer>
     </>
   )
 }

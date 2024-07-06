@@ -38,19 +38,43 @@ const Contact = forwardRef((props, ref) => {
                 alert('An error occurred, please try again.');
             });
 
-        e.target.reset(); // Reset form fields
+        e.target.reset(); 
     }
     return (
         <div ref={ref} className="relative h-screen bg-no-repeat bg-cover bg-center" style={{ backgroundImage: `url(${backgroundImage})` }}>
-           <div className="absolute inset-0 bg-[#1E3660] bg-opacity-90" ></div>
+            {/* div for blue opacity */}
+            <div className="absolute inset-0 bg-[#1E3660] bg-opacity-95" ></div>
+           {/* top border */}
+            <div className="flex justify-center items-center absolute z-10 top-10 ">
+                    <div className="border-t-[3px] border-white w-40"></div>
+                    <div className="border-t-[3px] border-white w-2 ml-16"></div>
+                    <div className="border-t-[3px] border-white w-10 ml-1"></div>
+                    <div className="border-t-[3px] border-white w-40 ml-16"></div>
+                    <div className="border-t-[3px] border-white w-2 ml-16"></div>
+                    <div className="border-t-[3px] border-white w-10 ml-1"></div>
+                    <div className="border-t-[3px] border-white w-40 ml-16"></div>
+                    <div className="border-t-[3px] border-white w-2 ml-16"></div>
+                    <div className="border-t-[3px] border-white w-10 ml-1"></div>
+                    <div className="border-t-[3px] border-white w-40 ml-16"></div>
+                    <div className="border-t-[3px] border-white w-2 ml-16"></div>
+                    <div className="border-t-[3px] border-white w-10 ml-1"></div>
+                    <div className="border-t-[3px] border-white w-36 ml-16"></div>
+                    {/* <div className="border-t-[3px] border-white w-36 ml-4"></div> */}
+            </div>
+
+           {/* form and text content */}
             <div className="relative z-10 ">
-                <div className=' h-screen flex gap-8 justify-evenly items-center  '>
+            
+                <div className=' lg:h-screen h-[200vh] flex lg:flex-row flex-col gap-8 justify-evenly items-center  '>
                     <div className='text-center'>
                         <p className='text-[#768B9C] font-bold text-md pb-2'>How to Reach.</p>
                         <h4 className='text-white font-bold text-[40px] pb-1'>Contact Us</h4>
                         <p className='text-[#768B9C] font-bold text-md pb-9'>I want to hear from you</p>
+                        <div className='mt-10 absolute left-[240px] top-0 bottom-0 w-[3px] bg-white'></div>
+                        <div className='mt-10 absolute left-[710px] top-0 bottom-0 w-[3px] bg-white'></div>
+                        <div className='mt-10 absolute left-[810px] top-0 bottom-0 w-[3px] bg-white'></div>
                         {/* form to contact */}
-                    <form className="card-body w-96" onSubmit={sendEmail}>
+                    <form className=" card-body w-96 " onSubmit={sendEmail}>
                         {/* Your Name */}
                         <div className="form-control pb-9">
                             <input type="text" name="from_name" placeholder="Your Name" className="bg-transparent border-b-2 border-[#768B9C] text-[#768B9C]  w-full  " required />
@@ -69,10 +93,19 @@ const Contact = forwardRef((props, ref) => {
                         </div>
                     </form>
                     <ToastContainer />
+                    {/* bottom border */}
+                    <div className="flex z-10 items-center absolute mt-20 left-48 lg:top-[572px]">
+                        <div className="border-b-[3px] border-white w-10 lg:w-40 "></div>
+                        <div className="border-b-[3px] border-white w-1 lg:w-2 ml-8"></div>
+                        <div className="border-b-[3px] border-white w-5 lg:w-10 ml-2"></div>
+                        <div className="border-b-[3px] border-white w-14 lg:w-40 ml-10"></div>
+                        <div className="border-b-[3px] border-white w-2 lg:w-2 ml-10"></div>
+                        <div className="border-b-[3px] border-white w-5 lg:w-10 ml-2"></div>
+                    </div>
                     </div>
 
                     {/* texts for right side */}
-                    <div className='relative h-screen flex flex-col justify-evenly items-center text-center'>
+                    <div className='relative flex flex-col lg:h-screen justify-evenly items-center text-center'>
                         <div>
                             <h4 className='text-white font-bold text-3xl mb-3'>Available Time</h4>
                             <p className='text-[#768B9C] tracking-wide text-md' style={{fontWeight: '550'}}>Monday - Saturday</p>

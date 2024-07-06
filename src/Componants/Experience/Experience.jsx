@@ -24,9 +24,9 @@ const Experience = forwardRef((props, ref) => {
 
 
     return (
-        <div ref={ref} className='bg-[#1E3660] text-center mb-7 h-[900px]'>
+        <div ref={ref} className='bg-[#1E3660] text-center mb-7 lg:h-[900px] h-[650px] '>
             <TitleBar title="Some of My Experience" style={{ backgroundColor: "rgba(0, 255, 0, 0)" }}>  </TitleBar>
-            <div className='px-72 py-16 grid grid-cols-3 gap-8 h-[90vh] '>
+            <div className='lg:px-72 px-6 lg:py-16 py-6 grid grid-cols-3 lg:gap-8 gap-2 lg:h-[90vh] h-[70vh] '>
                 {/* box 1 */}
                     <SlidingImageText images={project4} intervalDuration={8000} liveLink={'https://storied-donut-b1299b.netlify.app/'} github={'https://github.com/khadizajarin/job-seeker-client'} />
                 {/* box 2 */}
