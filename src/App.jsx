@@ -12,6 +12,7 @@ import Workflow from './Componants/Workflow/Workflow'
 import Navbar from './Componants/Home/Navbar'
 import Banner from './Componants/Home/Banner'
 import ClientsLove from './Componants/ClientsLove/ClientsLove'
+import Others from './Componants/Others/Others'
 // import Navbar from './Componants/Home/Navbar'
 
 function App() {
@@ -34,6 +35,7 @@ function App() {
     <Workflow ref={workflowRef}></Workflow>
     <Experience contactRef={contactRef} ref={experiencesRef}></Experience>
     <ClientsLove></ClientsLove>
+    <Others></Others>
     <Looking></Looking>
     <Contact ref={contactRef} ></Contact>
     <Footer></Footer>

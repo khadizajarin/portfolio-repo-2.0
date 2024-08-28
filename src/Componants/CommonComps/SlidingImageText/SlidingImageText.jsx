@@ -41,8 +41,8 @@ const SlidingImageText = ({ images, intervalDuration, className, liveLink, githu
         <div className="text-center text-white">
         <p className=" lg:text-xl text-sm lg:my-4 my-1 lg:px-4 px-4">Check out the Live Site and GitHub Repository!</p>
           <h1 className="flex justify-center items-center lg:gap-6 gap-1 text-xs"> 
-            <Link to={liveLink}><RiLinksFill className='border-0 bg-[#768B9C] lg:w-20 w-10 lg:h-20 h-10 lg:p-4 p-1 flex justify-center items-center '/>LiveLink</Link>
-            <Link to={github}><FiGithub className='border-0 bg-[#768B9C] lg:w-20 w-10 lg:h-20 h-10 lg:p-4 p-1 flex justify-center items-center'/> Github </Link>
+            <Link to={liveLink}><RiLinksFill className='border-0 bg-[#768B9C] lg:w-20 w-10 lg:h-20 h-10 lg:p-4 p-1 mb-1 flex justify-center items-center'/>LiveLink</Link>
+            <Link to={github}><FiGithub className='border-0 bg-[#768B9C] lg:w-20 w-10 lg:h-20 h-10 lg:p-4 p-1 mb-1 flex justify-center items-center'/> Github </Link>
           </h1>
         </div>
       </div>

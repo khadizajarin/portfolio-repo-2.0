@@ -24,30 +24,30 @@ const Experience = forwardRef((props, ref) => {
 
 
     return (
-        <div ref={ref} className='bg-[#1E3660] text-center mb-7 lg:h-[900px] h-[650px] '>
+        <div ref={ref} className='relative z-10 bg-[#1E3660] text-center md:h-[56.25rem] pt-10 pb-10'>
             <TitleBar title="Some of My Experience" style={{ backgroundColor: "rgba(0, 255, 0, 0)" }}>  </TitleBar>
-            <div className='lg:px-72 px-6 lg:py-16 py-6 grid grid-cols-3 lg:gap-8 gap-2 lg:h-[90vh] h-[70vh] '>
+            <div className='lg:px-72 px-6 lg:py-16 py-6 grid lg:grid-cols-3 grid-cols-1 lg:gap-8 gap-3 lg:h-[90vh] h-[120vh] '>
                 {/* box 1 */}
-                    <SlidingImageText images={project4} intervalDuration={8000} liveLink={'https://storied-donut-b1299b.netlify.app/'} github={'https://github.com/khadizajarin/job-seeker-client'} />
+                    <SlidingImageText images={project4} intervalDuration={4000} liveLink={'https://storied-donut-b1299b.netlify.app/'} github={'https://github.com/khadizajarin/job-seeker-client'} />
                 {/* box 2 */}
-                    <SlidingImageText images={project3} intervalDuration={11000} liveLink={'https://portfolio-khadizajarinroza.netlify.app/?fbclid=IwZXh0bgNhZW0CMTAAAR35bfNFV4UA-FIFZW43r2dX9S6v6Cj8dRa7Y5V-qojZAeZEsP5Q74FYgLE_aem_41FV1azXsZ6cAVH_rvXJkw'} github={'https://github.com/khadizajarin/portfolio-repo'} />
+                    <SlidingImageText images={project3} intervalDuration={5000} liveLink={'https://portfolio-khadizajarinroza.netlify.app/?fbclid=IwZXh0bgNhZW0CMTAAAR35bfNFV4UA-FIFZW43r2dX9S6v6Cj8dRa7Y5V-qojZAeZEsP5Q74FYgLE_aem_41FV1azXsZ6cAVH_rvXJkw'} github={'https://github.com/khadizajarin/portfolio-repo'} />
                 {/* box 3 */}
-                    <SlidingImageText className='row-span-2' images={project1} intervalDuration={9000} liveLink={'https://tranquil-nougat-6ba383.netlify.app/'} github={'https://github.com/khadizajarin/thePortfolyo'} />
+                    <SlidingImageText className='lg:row-span-2' images={project1} intervalDuration={6000} liveLink={'https://tranquil-nougat-6ba383.netlify.app/'} github={'https://github.com/khadizajarin/thePortfolyo'} />
                 {/* box 4 */}
-                    <SlidingImageText className='col-span-2' images={project2} intervalDuration={10000} liveLink={'https://silly-madeleine-e13392.netlify.app/'} github={'https://github.com/khadizajarin/task-homepage'} />
+                    <SlidingImageText className='lg:col-span-2' images={project2} intervalDuration={7000} liveLink={'https://silly-madeleine-e13392.netlify.app/'} github={'https://github.com/khadizajarin/task-homepage'} />
             </div>
 
             <div className='flex flex-row gap-6 justify-center mt-4'>
             <Link to="https://github.com/khadizajarin">
-                <button className="btn bg-[#768B9C] border-0 shadow-black shadow-[5px_5px_10px_0_rgba(0,0,0,0.2)] text-white font-semibold ">
+                <button className="btn lg:h-12 min-h-5 h-7 lg:px-4 px-2 text-[10px] lg:text-[14px] bg-[#768B9C] border-0 lg:shadow-black shadow-gray-900 lg:shadow-[5px_5px_10px_0_rgba(0,0,0,0.2)] shadow-[5px_5px_3px_0_rgba(0,0,0,0.9)]  text-white lg:font-semibold hover:bg-[#768B9C] lg:pl-[20px] pl-[10px]">
                     Visit Github
-                    <LiaArrowRightSolid className= "w-6 h-5 stroke-1"/>
+                    <LiaArrowRightSolid className= "lg:ml-1 lg:w-6 lg:h-5 stroke-1"/>
                 </button>
             </Link>
             <div onClick={() => scrollToSection(props.contactRef)}>
-                <button className="btn bg-[#768B9C] border-0 shadow-black shadow-[5px_5px_10px_0_rgba(0,0,0,0.2)] text-white font-semibold ">
+                <button className="btn lg:h-12 min-h-5 h-7 lg:px-4 px-2 text-[10px] lg:text-[14px] bg-[#768B9C] border-0 lg:shadow-black shadow-gray-900 lg:shadow-[5px_5px_10px_0_rgba(0,0,0,0.2)] shadow-[5px_5px_3px_0_rgba(0,0,0,0.9)]  text-white lg:font-semibold hover:bg-[#768B9C] lg:pl-[20px] pl-[10px]">
                 Hire Me
-                <LiaArrowRightSolid className= "w-6 h-5 stroke-1"/>
+                <LiaArrowRightSolid className= "lg:ml-1 lg:w-6 lg:h-5 stroke-1"/>
             </button>
             </div>
             

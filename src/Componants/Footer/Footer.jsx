@@ -27,15 +27,15 @@ const Footer = () => {
     }, []);
     return (
         <div>
-            <footer className="footer h-16 bg-white text-[#768B9C] font-semibold  justify-evenly items-center p-4">
-            <aside className="grid-flow-col items-center text-base">
-                <p>Copyright © ${new Date().getFullYear()} - All right reserved</p>
+            <footer className="lg:footer flex flex-row lg:gap-7 gap-3 lg:h-16 bg-white text-[#768B9C] font-semibold  justify-evenly items-center p-4 lg:mt-[4px]">
+            <aside className="grid-flow-col items-center lg:text-[1rem] text-[0.75rem]  ">
+                <p className="text-center">Copyright © ${new Date().getFullYear()} - All right reserved</p>
             </aside>
-            <button style={{ display: 'flex', alignItems: 'center' }} onClick={handleScrollToTop} className="bg-[#1E3660] p-2 rounded-full text-white">
-                <FaArrowUp className="h-[14px] w-[14px]"></FaArrowUp>
+            <button style={{ display: 'flex', alignItems: 'center' }} onClick={handleScrollToTop} className="bg-[#1E3660] p-[6px] lg:ml-10 rounded-full text-white ">
+                <FaArrowUp className="h-[0.875rem] w-[0.875rem]"></FaArrowUp>
             </button>
-            <aside className="text-base">
-                <p>Terms & Conditions | Privacy Policy | FAQs</p>
+            <aside className="lg:text-[1rem]  text-[0.75rem]  ">
+                <p className="text-center">Terms & Conditions | Privacy Policy | FAQs</p>
             </aside>
             </footer>
         </div>

@@ -10,9 +10,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "aos": "^3.0.0-beta.6",
     "dotenv": "^16.4.5",
     "emailjs-com": "^3.2.0",
-    "framer-motion": "^11.2.12",
+    "framer-motion": "^11.2.13",
     "localforage": "^1.10.0",
     "match-sorter": "^6.3.4",
     "react": "^18.2.0",
