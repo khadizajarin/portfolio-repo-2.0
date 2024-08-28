@@ -5,7 +5,7 @@ const Others = () => {
         <div className="bg-white text-center lg:pt-[5rem] pt-[4rem]">
             <TitleBar title={'Some of My Other Skills'}></TitleBar>
             
-            <div className="text-[#768B9C] font-semibold lg:py-[5rem] py-[3rem] flex flex-wrap justify-center items-center lg:gap-7 gap-6 lg:text-[1.75rem] text-[1.25rem] lg:px-[23rem] px-8">
+            <div className="text-[#768B9C] font-semibold lg:py-[5rem] py-[3rem] flex flex-wrap justify-center items-center lg:gap-8 gap-6 lg:text-[1.75rem] text-[1.25rem] lg:px-[18rem] px-8">
                 <div>
                     <span className="border-[#768B9C] rounded-full border-4 mr-4 inline-block align-middle w-2 h-2"></span> 
                     Html
@@ -17,10 +17,14 @@ const Others = () => {
                 <div>
                     <span className="border-[#768B9C] rounded-full border-4 mr-4 inline-block align-middle w-2 h-2"></span> 
                     Javascript
-                </div> {/* Moved closing div here */}
+                </div> 
                 <div>
                     <span className="border-[#768B9C] rounded-full border-4 mr-4 inline-block align-middle w-2 h-2"></span> 
                     Vscode
+                </div>
+                <div>
+                    <span className="border-[#768B9C] rounded-full border-4 mr-4 inline-block align-middle w-2 h-2"></span> 
+                    Tailwind
                 </div>
                 <div>
                     <span className="border-[#768B9C] rounded-full border-4 mr-4 inline-block align-middle w-2 h-2"></span> 
