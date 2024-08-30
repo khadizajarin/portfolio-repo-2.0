@@ -25,12 +25,12 @@ const Experience = forwardRef((props, ref) => {
 
     return (
         <div ref={ref} className='relative z-10 bg-[#1E3660] text-center md:h-[56.25rem] pt-10 pb-10'>
-            <TitleBar title="Some of My Experience" style={{ backgroundColor: "rgba(0, 255, 0, 0)" }}>  </TitleBar>
+            <TitleBar title="Some of My Experiences" style={{ backgroundColor: "rgba(0, 255, 0, 0)" }}>  </TitleBar>
             <div className='lg:px-72 px-6 lg:py-16 py-6 grid lg:grid-cols-3 grid-cols-1 lg:gap-8 gap-3 lg:h-[90vh] h-[120vh] '>
                 {/* box 1 */}
                     <SlidingImageText images={project4} intervalDuration={4000} liveLink={'https://storied-donut-b1299b.netlify.app/'} github={'https://github.com/khadizajarin/job-seeker-client'} />
                 {/* box 2 */}
-                    <SlidingImageText images={project3} intervalDuration={5000} liveLink={'https://portfolio-khadizajarinroza.netlify.app/?fbclid=IwZXh0bgNhZW0CMTAAAR35bfNFV4UA-FIFZW43r2dX9S6v6Cj8dRa7Y5V-qojZAeZEsP5Q74FYgLE_aem_41FV1azXsZ6cAVH_rvXJkw'} github={'https://github.com/khadizajarin/portfolio-repo'} />
+                    <SlidingImageText images={project3} intervalDuration={5000} liveLink={'https://open-table-design.netlify.app/'} github={'https://github.com/khadizajarin/open-table-design'} />
                 {/* box 3 */}
                     <SlidingImageText className='lg:row-span-2' images={project1} intervalDuration={6000} liveLink={'https://tranquil-nougat-6ba383.netlify.app/'} github={'https://github.com/khadizajarin/thePortfolyo'} />
                 {/* box 4 */}
