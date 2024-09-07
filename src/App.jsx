@@ -1,22 +1,19 @@
-import { useRef } from 'react';
-import './App.css';
-import About from './Componants/About/About';
-import Contact from './Componants/Contact/Contact';
-import Experience from './Componants/Experience/Experience';
-import Footer from './Componants/Footer/Footer';
-import Looking from './Componants/Looking/Looking';
-import Skills from './Componants/Skills/Skills';
-import Workflow from './Componants/Workflow/Workflow';
-import Navbar from './Componants/Home/Navbar';
-import Banner from './Componants/Home/Banner';
-import ClientsLove from './Componants/ClientsLove/ClientsLove';
-import Others from './Componants/Others/Others';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import { Switch } from 'react-router-dom'; // Add this line to explicitly import the Switch component
-import usePageTracking from './customHook/usePageTracking';
+
+import { useRef } from 'react'
+import './App.css'
+import About from './Componants/About/About'
+import Contact from './Componants/Contact/Contact'
+import Experience from './Componants/Experience/Experience'
+import Footer from './Componants/Footer/Footer'
+import Looking from './Componants/Looking/Looking'
+import Skills from './Componants/Skills/Skills'
+import Workflow from './Componants/Workflow/Workflow'
+import Navbar from './Componants/Home/Navbar'
+import Banner from './Componants/Home/Banner'
+import ClientsLove from './Componants/ClientsLove/ClientsLove'
+import Others from './Componants/Others/Others'
 
 function App() {
-  usePageTracking();
 
   const skillsRef = useRef(null);
   const workflowRef = useRef(null);
@@ -24,32 +21,32 @@ function App() {
   const contactRef = useRef(null);
 
   return (
-    <Router>
-      <>
-        <Navbar
-          skillsRef={skillsRef}
-          workflowRef={workflowRef}
-          experiencesRef={experiencesRef}
-          contactRef={contactRef}
-        />
-        <Banner contactRef={contactRef} />
-        <Switch>
-          <Route exact path="/">
-            <About />
-            <Skills ref={skillsRef} />
-            <Workflow ref={workflowRef} />
-            <Experience contactRef={contactRef} ref={experiencesRef} />
-            <ClientsLove />
-            <Others />
-            <Looking />
-            <Contact ref={contactRef} />
-            <Footer />
-          </Route>
-          {/* Add other routes here if needed */}
-        </Switch>
-      </>
-    </Router>
-  );
+    < >
+  
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-SY8E9607XM"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-SY8E9607XM');
+</script>
+    <Navbar skillsRef={skillsRef} 
+        workflowRef={workflowRef} 
+        experiencesRef={experiencesRef} 
+        contactRef={contactRef} ></Navbar>
+    <Banner contactRef={contactRef}></Banner>
+    <About></About>
+    <Skills ref={skillsRef}></Skills>
+    <Workflow ref={workflowRef}></Workflow>
+    <Experience contactRef={contactRef} ref={experiencesRef}></Experience>
+    <ClientsLove></ClientsLove>
+    <Others></Others>
+    <Looking></Looking>
+    <Contact ref={contactRef} ></Contact>
+    <Footer></Footer>
+    </>
+  )
 }
 
-export default App;
+export default App

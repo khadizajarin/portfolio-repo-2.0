@@ -6,20 +6,27 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import ReactGA from 'react-ga';
-
-// Initialize Google Analytics
-ReactGA.initialize('G-SY8E9607XM'); // Replace with your Tracking ID
-
-// Track the initial page load
-ReactGA.pageview(window.location.pathname + window.location.search);
-
+// import Home from './Componants/Home/Home.jsx';
 
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App></App>,
+    // children: [
+    //   {
+    //     path: "/",
+    //     element: <Home></Home>,
+    //   },
+      // {
+      //   path: "/banner",
+      //   element: <Banner></Banner>,
+      // },
+      // {
+      //   path: "/services",
+      //   element:<Services></Services>,
+      // },
+    // ]y
   },
 ]);
 
