@@ -11,7 +11,8 @@ import Navbar from './Componants/Home/Navbar';
 import Banner from './Componants/Home/Banner';
 import ClientsLove from './Componants/ClientsLove/ClientsLove';
 import Others from './Componants/Others/Others';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { Switch } from 'react-router-dom'; // Add this line to explicitly import the Switch component
 import usePageTracking from './customHook/usePageTracking';
 
 function App() {
