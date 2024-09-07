@@ -1,5 +1,5 @@
 
-import { useRef } from 'react'
+import { useEffect, useRef } from 'react'
 import './App.css'
 import About from './Componants/About/About'
 import Contact from './Componants/Contact/Contact'
@@ -20,17 +20,24 @@ function App() {
   const experiencesRef = useRef(null);
   const contactRef = useRef(null);
 
+  useEffect(() => {
+    const script1 = document.createElement('script');
+    script1.src = "https://www.googletagmanager.com/gtag/js?id=G-SY8E9607XM";
+    script1.async = true;
+    document.body.appendChild(script1);
+
+    const script2 = document.createElement('script');
+    script2.innerHTML = `
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-SY8E9607XM');
+    `;
+    document.body.appendChild(script2);
+  }, []);
+
   return (
     < >
-  
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-SY8E9607XM"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-SY8E9607XM');
-</script>
     <Navbar skillsRef={skillsRef} 
         workflowRef={workflowRef} 
         experiencesRef={experiencesRef} 
