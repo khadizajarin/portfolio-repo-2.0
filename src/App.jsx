@@ -26,6 +26,10 @@ function App() {
     script1.async = true;
     document.body.appendChild(script1);
 
+
+
+
+    // jjjjjjjjjjjjjjjjjjjjjjjjjjk
     const script2 = document.createElement('script');
     script2.innerHTML = `
       window.dataLayer = window.dataLayer || [];
