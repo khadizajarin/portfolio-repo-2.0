@@ -3,7 +3,7 @@ import './Box.css';
 import { useState, useEffect } from 'react';
 import { motion } from "framer-motion";
 
-const Box = ({ text, subtext,duration, delay }) => {
+const Box = ({ text,title, subtext,duration, delay }) => {
     const percent = parseInt(text);
     const [percentage] = useState(percent);
 
@@ -51,7 +51,7 @@ const Box = ({ text, subtext,duration, delay }) => {
             
             {/* Main content */}
             <div className="relative z-10 flex flex-col justify-center items-center lg:w-[20.6875rem] lg:h-[9.4375rem] w-[6.875rem] h-[4.8125rem] lg:rounded-[0.5rem] rounded-[0.25rem] bg-[#F4F5F7] ">
-                <div className="lg:text-5xl text-[1.2rem] font-bold text-[#1E3660]">{text}</div>
+                <div className="lg:text-5xl text-[1.2rem] font-bold text-[#1E3660]">{title}</div>
                 <div className="lg:text-xl text-[0.7635rem] font-bold text-[#1E3660] text-center leading-tight mb-1">{subtext}</div>
             </div>
         </div>  
@@ -60,6 +60,7 @@ const Box = ({ text, subtext,duration, delay }) => {
 
 Box.propTypes = {
     text: PropTypes.string.isRequired,
+    title: PropTypes.string.isRequired,
     subtext: PropTypes.string.isRequired,
     delay: PropTypes.any.isRequired,
     duration: PropTypes.any.isRequired,

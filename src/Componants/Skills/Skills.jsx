@@ -12,7 +12,7 @@ const Skills = forwardRef((props, ref) => {
             {/* box 1 */}
             <div className="relative h-full grid grid-rows-3 gap-4 items-start pr-7">
                 <div className="row-span-3 flex justify-end ">
-                    <Box  text="70%" subtext="React (Intermediate)" delay={0} duration={2} />
+                    <Box  text="70%" title="React.JS" subtext="(Intermediate)" delay={0} duration={2} />
                 </div>
 
                 {/* connecting line 1 */}
@@ -24,7 +24,7 @@ const Skills = forwardRef((props, ref) => {
             {/* box 2 */}
             <div className="relative h-full grid grid-rows-2 gap-4 items-end pl-7">
                 <div className="-mt-10 row-span-2 flex justify-start ">
-                    <Box  text="50%" subtext="Node.JS (Intermediate)" delay={2} duration={2}/>
+                    <Box  text="50%" title="Node.JS" subtext="(Intermediate)" delay={2} duration={2}/>
                 </div>
                 {/* connecting line 2 */}
                 <div className="absolute lg:right-[21.8125rem] lg:top-[18.125rem] right-[3.75rem] top-[9.375rem]  lg:border-r-[0.625rem] border-r-[0.3125rem] lg:border-b-[0.625rem] border-b-[0.3125rem] lg:rounded-br-[1.125rem] rounded-br-lg border-[#1E3660] lg:h-20 h-7 lg:w-60 w-40 ">
@@ -35,7 +35,7 @@ const Skills = forwardRef((props, ref) => {
             {/* box 3 */}
             <div className="relative h-full grid grid-rows-2 gap-4 items-start pr-7">
                 <div className=" -mt-10  row-span-2 flex justify-end">
-                    <Box text="30%" subtext="Express.JS  (Basic) " delay={4} duration={2}/>
+                    <Box text="30%" title="Express.JS" subtext="(Basic) " delay={4} duration={2}/>
                 </div>
                 {/* connecting line 3 */}
                 <div className="absolute lg:left-[21.875rem] lg:top-[8.125rem] left-[3.6875rem] top-[2.8125rem] lg:border-l-[0.625rem] border-l-[0.3125rem] lg:border-b-[0.625rem] border-b-[0.3125rem] lg:rounded-bl-[1.125rem] rounded-bl-lg border-[#1E3660] lg:h-14 h-7 lg:w-60 w-36">
@@ -47,7 +47,7 @@ const Skills = forwardRef((props, ref) => {
             {/* box 4 */}
             <div className="relative h-full grid grid-rows-2 gap-4 items-end pl-7">
                 <div className="-mt-10 row-span-2 flex justify-start ">
-                    <Box  text="30%" subtext="MongoDB (Basic)" delay={6} duration={2}/>
+                    <Box  text="30%" title="MongoDB" subtext="(Basic)" delay={6} duration={2}/>
                 </div>
             </div>
             
