@@ -127,14 +127,14 @@ const Contact = forwardRef((props, ref) => {
                             <h4 className='text-white font-bold text-3xl mb-3'>Support</h4>
                             <p className='text-[#768B9C] tracking-wide leading-loose text-md' style={{fontWeight: '550'}}
                              onClick={handleEmailClick}>khadiza131310@gmail.com</p>
-                            <p className='text-[#768B9C] tracking-wide text-md' style={{fontWeight: '550'}}>+8801315929336</p>
+                            {/* <p className='text-[#768B9C] tracking-wide text-md' style={{fontWeight: '550'}}></p> */}
                         </div>
 
                         <div className='flex justify-center gap-6'>
                             <div className='border-0 bg-[#768B9C] w-10 h-10 rounded-full text-white flex justify-center items-center'><Link to="https://www.facebook.com/khadizajarinroza?mibextid=gik2fB"><FaFacebookF></FaFacebookF></Link></div>
                             <div className='border-0 bg-[#768B9C] w-10 h-10 rounded-full text-white flex justify-center items-center'><Link to="https://github.com/khadizajarin"><PiGithubLogoBold></PiGithubLogoBold></Link></div>
                             <div className='border-0 bg-[#768B9C] w-10 h-10 rounded-full text-white flex justify-center items-center'><Link to="https://www.linkedin.com/in/khadiza-jarin-roza/"><FaLinkedinIn></FaLinkedinIn></Link></div>
-                            <div className='border-0 bg-[#768B9C] w-10 h-10 rounded-full text-white flex justify-center items-center'><Link to="https://wa.me/8801315929336"><FaWhatsapp></FaWhatsapp></Link></div>
+                            {/* <div className='border-0 bg-[#768B9C] w-10 h-10 rounded-full text-white flex justify-center items-center'><Link to="https://wa.me/"><FaWhatsapp></FaWhatsapp></Link></div> */}
                         </div>
                     </div>
                 </div>
