@@ -5,17 +5,24 @@ import next from "../../assets/nexticon-01.png"
 
 const ClientsLove = () => {
     return (
-        <div className="relative">
+        <div className="relative bg-white">
             <div className="lg:pb-10 pb-[4.375rem] bg-white lg:pt-16 pt-11 flex flex-col justify-center items-center">
                 <TitleBar  title="Client’s Love"></TitleBar>
             </div>
 
             <div className="bg-[#D6DCE1] lg:pb-32 pb-20 lg:mt-28 flex lg:flex-row flex-col justify-center items-center gap-16">
-                <div className="relative lg:-mt-8 -mt-7">
+                {/* <div className="relative lg:-mt-8 -mt-7">
                     <ReviewBox
                         name={"Md. Mostafizur Rahman"}
                         designation={"Chairman, Nurunnaher Textiles"}
                         review="Khadiza is a fantastic developer! I don't know much about ReactJS, but I can see the great work she's done. The site she built is easy to use and works perfectly. Khadiza was professional, communicated well, and finished everything on time. I'm very happy with the results and highly recommend her for any project."
+                    ></ReviewBox>
+                </div> */}
+                <div className="relative lg:-mt-8 -mt-7">
+                    <ReviewBox
+                        name={"Somykoron"}
+                        designation={"Application Development Software Company"}
+                        review="Thank you for your valuable contributions during your internship. We truly appreciate your hard work. We hope to stay connected for future opportunities. Wishing you all the best in your future endeavors."
                     ></ReviewBox>
                 </div>
                 <div className="relative -mt-8">

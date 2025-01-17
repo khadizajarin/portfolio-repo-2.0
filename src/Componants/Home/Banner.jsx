@@ -91,7 +91,7 @@ const Banner = ({contactRef}) => {
                         <hr className="pb-4 lg:w-96 w-[260px] border-[#768B9C] border-t-[3px]" />
                         <p className="lg:pb-10 pb-5 text-white lg:text-sm text-[10px] font-bold">I like to craft solid and scalable front-end products <span className=""><br /></span> with great user experiences.</p>
                         <div className="flex flex-row lg:gap-6 gap-3 ">
-                        <a href="khadiza_jarin_roza(resume).pdf" download>
+                        <a href="Khadiza_Jarin_Roza_resume.pdf" download>
                             <button className="btn lg:h-12 min-h-5 h-7 lg:px-4 px-2 text-[10px] lg:text-[14px] bg-[#768B9C] border-0 lg:shadow-black shadow-gray-900 lg:shadow-[5px_5px_10px_0_rgba(0,0,0,0.2)] shadow-[5px_5px_3px_0_rgba(0,0,0,0.9)] text-white lg:font-semibold hover:bg-[#768B9C] lg:pl-[20px] pl-[10px]">
                                 Download Resume 
                                 <HiMiniArrowDownTray className=" lg:w-6 lg:h-5 stroke-1"/> 
