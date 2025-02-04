@@ -5,17 +5,18 @@ import TitleBar from "../CommonComps/TitleBar/TitleBar";
 
 const About = () => {
     return (
-        <div className="relative flex flex-col items-center bg-white ">
+        <div className="relative flex flex-col items-center bg-white lg:mt-8">
             {/* <!-- First vertical line --> */}
-            <div className="absolute lg:h-5 h-20 w-1 bg-[#768B9C] opacity-[0.09] lg:opacity-15  lg:left-[30.1875rem] left-16 lg:mt-[3.125rem]"></div>
+            <div className="absolute h-20 w-1 bg-[#768B9C] opacity-[0.09] lg:opacity-15  lg:left-[30.1875rem] left-16"></div>
             <div className="absolute h-20 w-1 bg-[#768B9C] opacity-[0.09] lg:opacity-15  lg:left-[30.1875rem] left-16 mt-[9.38rem]"></div>
             <div className="absolute h-3 w-1 bg-[#768B9C] opacity-[0.09] lg:opacity-15  lg:left-[30.1875rem] left-16 mt-[14.69rem]"></div>
             <div className="absolute h-20 w-1 bg-[#768B9C] opacity-[0.09] lg:opacity-15  lg:left-[30.1875rem] left-16 mt-[17rem]"></div>
+            <div className="absolute h-5 w-1 bg-[#768B9C] opacity-[0.09] lg:opacity-15  lg:left-[30.1875rem] left-16 mt-[22.5rem]"></div>
             <div className="absolute h-20 w-1 bg-[#768B9C] opacity-[0.09] lg:opacity-15  lg:left-[30.1875rem] left-16 mt-[26rem]"></div>
             <div className="absolute h-3 w-1 bg-[#768B9C] opacity-[0.09] lg:opacity-15  lg:left-[30.1875rem] left-16 mt-[32rem]"></div>
             <div className="absolute h-20 w-1 bg-[#768B9C] opacity-[0.09] lg:opacity-15  lg:left-[30.1875rem] left-16 mt-[36rem]"></div>
             <div className="absolute h-20 w-1 bg-[#768B9C] opacity-[0.09] lg:opacity-15  lg:left-[30.1875rem] left-16 mt-[45rem]"></div>
-            <div className="lg:hidden absolute h-3 w-1 bg-[#768B9C] opacity-[0.09] lg:opacity-15  lg:left-[30.1875rem] left-16 mt-[52.8125rem]"></div>
+            <div className="absolute h-3 w-1 bg-[#768B9C] opacity-[0.09] lg:opacity-15  lg:left-[30.1875rem] left-16 mt-[51.8125rem]"></div>
             <div className="lg:hidden absolute h-20 w-1 bg-[#768B9C] opacity-[0.09] lg:opacity-15  lg:left-[30.1875rem] left-16 mt-[56.25rem]"></div>
             
             {/* <!-- Second vertical line --> */}
@@ -24,15 +25,13 @@ const About = () => {
             <div className="absolute h-20 w-1 bg-[#768B9C] opacity-[0.09] lg:opacity-15  lg:right-[30.1875rem] right-16 mt-[9.38rem]"></div>
             <div className="absolute h-3 w-1 bg-[#768B9C] opacity-[0.09] lg:opacity-15  lg:right-[30.1875rem] right-16 mt-[14.69rem]"></div>
             <div className="absolute h-20 w-1 bg-[#768B9C] opacity-[0.09] lg:opacity-15  lg:right-[30.1875rem] right-16 mt-[17rem]"></div>
+            <div className="absolute h-5 w-1 bg-[#768B9C] opacity-[0.09] lg:opacity-15  lg:right-[30.1875rem] right-16 mt-[22.5rem]"></div>
             <div className="absolute h-20 w-1 bg-[#768B9C] opacity-[0.09] lg:opacity-15  lg:right-[30.1875rem] right-16 mt-[26rem]"></div>
             <div className="absolute h-3 w-1 bg-[#768B9C] opacity-[0.09] lg:opacity-15  lg:right-[30.1875rem] right-16 mt-[32rem]"></div>
             <div className="absolute h-20 w-1 bg-[#768B9C] opacity-[0.09] lg:opacity-15  lg:right-[30.1875rem] right-16 mt-[36rem]"></div>
             <div className="absolute h-20  w-1 bg-[#768B9C] opacity-[0.09] lg:opacity-15  lg:right-[30.1875rem] right-16 mt-[45rem]"></div>
-            <div className="lg:hidden absolute h-3 w-1 bg-[#768B9C] opacity-[0.09] lg:opacity-15  lg:right-[30.1875rem] right-16 mt-[51.875rem]"></div>
+            <div className=" absolute h-3 w-1 bg-[#768B9C] opacity-[0.09] lg:opacity-15  lg:right-[30.1875rem] right-16 mt-[51.875rem]"></div>
             <div className="lg:hidden absolute h-10 w-1 bg-[#768B9C] opacity-[0.09] lg:opacity-15  lg:right-[30.1875rem] right-16 mt-[56.25rem]"></div>
-            {/* <div className="lg:hidden absolute h-20 w-1 bg-[#768B9C] opacity-[0.09] lg:opacity-15  lg:right-[30.1875rem] right-16 mt-[1060px]"></div> */}
-            {/* <div className="absolute h-2 w-1 bg-[#768B9C] opacity-[0.09] lg:opacity-15  lg:right-[30.1875rem] right-16 mt-[835px]"></div> */}
-
 
             
             <div className="flex flex-col justify-center items-center lg:mt-16 mt-10">

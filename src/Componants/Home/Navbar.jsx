@@ -35,6 +35,7 @@ const Navbar = ({ skillsRef, workflowRef, experiencesRef, contactRef }) => {
               <div className="ml-[2.6875rem] lg:ml-24 border-l-[3px] border-white opacity-50 lg:opacity-70 lg:h-44 h-20 absolute"></div>
               <div className="ml-[2.6875rem] md:ml-24 mt-24 md:mt-64 border-l-[3px] border-white opacity-50 lg:opacity-70 lg:h-2 h-3 absolute"></div>
               <div className="ml-[2.6875rem] md:ml-24 mt-[9.375rem] lg:mt-80 border-l-[3px] border-white opacity-50 lg:opacity-70 lg:h-10 h-5 absolute"></div>
+              <div className="ml-[2.6875rem] md:ml-24 mt-[9.375rem] lg:mt-[31rem] border-l-[3px] border-white opacity-50 lg:opacity-70 lg:h-20 h-5 absolute"></div>
             </div>
           
           
@@ -42,7 +43,7 @@ const Navbar = ({ skillsRef, workflowRef, experiencesRef, contactRef }) => {
         </div>
 
         <div className="flex flex-row justify-center lg:items-center md:w-full lg:h-[7rem] bg-white">
-          <ul className="z-10 menu menu-horizontal w-full flex flex-row justify-center  bg-white lg:text-xl text-[0.875rem] lg:px-0 text-[#1E3660] lg:font-bold font-bold">
+          <ul className="z-10 menu menu-horizontal w-full flex flex-row justify-start lg:pl-7 bg-white lg:text-xl text-[0.875rem] lg:px-0 text-[#1E3660] lg:font-bold font-bold">
             <li onClick={() => scrollToSection(skillsRef)} className="lg:px-6 px-2 border-r-[3px] border-[#768B9C]">Skills</li>
             <li onClick={() => scrollToSection(workflowRef)} className="lg:px-6 px-2 border-r-[3px] border-[#768B9C]">Workflow</li>
             <li onClick={() => scrollToSection(experiencesRef)} className="lg:px-6 px-2 border-r-[3px] border-[#768B9C]">Experiences</li>
@@ -64,8 +65,8 @@ const Navbar = ({ skillsRef, workflowRef, experiencesRef, contactRef }) => {
           <div className="border-t-[3px] border-white opacity-50 lg:opacity-70 w-2 lg:w-2 ml-5 lg:ml-8 "></div>
           <div className="border-t-[3px] border-white opacity-50 lg:opacity-70 w-10  lg:ml-2 "></div>
           <div className=" border-t-[3px] border-white opacity-50 lg:opacity-70 w-12 lg:w-28 lg:ml-10 "></div>
-          {/* <div className="border-t-[3px] border-white opacity-50 lg:opacity-70 w-2 lg:w-4 ml-2 lg:ml-10 "></div> */}
-          {/* <div className="border-t-[3px] border-white opacity-50 lg:opacity-70 w-2 lg:w-10 ml-2 lg:ml-2 "></div> */}
+          <div className="border-t-[3px] border-white opacity-50 lg:opacity-70 w-2 lg:w-4 ml-2 lg:ml-10 "></div>
+          <div className="border-t-[3px] border-white opacity-50 lg:opacity-70 w-2 lg:w-10 ml-2 lg:ml-2 "></div>
         </div>
       </div>
       

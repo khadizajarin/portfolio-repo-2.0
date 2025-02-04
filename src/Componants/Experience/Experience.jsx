@@ -24,7 +24,7 @@ const Experience = forwardRef((props, ref) => {
 
 
     return (
-        <div ref={ref} className='relative z-10 bg-[#1E3660] text-center md:h-[56.25rem] pt-10 pb-10'>
+        <div ref={ref} className='relative z-10 bg-[#1E3660] text-center lg:h-[68rem] md:h-[56.25rem] pt-20 pb-10'>
             <TitleBar title="Some of My Experiences" style={{ backgroundColor: "rgba(0, 255, 0, 0)" }}>  </TitleBar>
             <div className='lg:px-72 px-6 lg:py-16 py-6 grid lg:grid-cols-3 grid-cols-1 lg:gap-8 gap-3 lg:h-[90vh] h-[120vh] '>
                 {/* box 1 */}

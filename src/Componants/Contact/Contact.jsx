@@ -62,6 +62,10 @@ const Contact = forwardRef((props, ref) => {
                     <div className="lg:inline hidden border-t-[3px] border-white opacity-50 w-2 ml-16"></div>
                     <div className="lg:inline hidden border-t-[3px] border-white opacity-50 w-10 ml-1"></div>
                     <div className="lg:inline hidden border-t-[3px] border-white opacity-50 w-36 ml-16"></div>
+                    <div className="lg:inline hidden border-t-[3px] border-white opacity-50 w-2 ml-16"></div>
+                    <div className="lg:inline hidden border-t-[3px] border-white opacity-50 w-10 ml-1"></div>
+                    <div className="lg:inline hidden border-t-[3px] border-white opacity-50 w-36 ml-16"></div>
+                    
             </div>
 
            {/* form and text content */}
@@ -74,9 +78,9 @@ const Contact = forwardRef((props, ref) => {
                         <p className='text-[#768B9C] font-bold text-md pb-9'>I want to hear from you</p>
 
                         {/* side 3 border */}
-                        <div className='hidden lg:inline-block mt-10 absolute left-[200px] top-0 bottom-0 w-[3px] bg-white opacity-50'></div>
-                        <div className='hidden lg:inline-block mt-10 absolute left-[680px] top-0 bottom-0 w-[3px] bg-white opacity-50'></div>
-                        <div className='hidden lg:inline-block mt-10 absolute left-[780px] top-0 bottom-0 w-[3px] bg-white opacity-50'></div>
+                        <div className='hidden lg:inline-block mt-10 absolute left-[20rem] top-0 bottom-0 w-[3px] bg-white opacity-50'></div>
+                        <div className='hidden lg:inline-block mt-10 absolute left-[55rem] top-0 bottom-0 w-[3px] bg-white opacity-50'></div>
+                        <div className='hidden lg:inline-block mt-10 absolute left-[61.75rem] top-0 bottom-0 w-[3px] bg-white opacity-50'></div>
 
                     {/* form to contact */}
                     <form className=" card-body lg:w-96 w-[23.125rem]" onSubmit={sendEmail}>
@@ -99,13 +103,14 @@ const Contact = forwardRef((props, ref) => {
                     </form>
                     <ToastContainer />
                     {/* bottom border */}
-                    <div className="flex z-10 items-center absolute mt-[5rem] lg:left-[10.625rem] left-12 lg:top-[35.75rem] top-[31.5rem]">
+                    <div className="flex z-10 items-center absolute mt-[10rem] lg:left-[16.625rem] left-12 lg:top-[38.75rem] top-[31.5rem]">
                         <div className="border-b-[3px] border-white opacity-50 w-10 lg:w-40 "></div>
                         <div className="border-b-[3px] border-white opacity-50 w-1 lg:w-2 ml-8"></div>
                         <div className="border-b-[3px] border-white opacity-50 w-5 lg:w-10 ml-2"></div>
                         <div className="border-b-[3px] border-white opacity-50 w-14 lg:w-40 ml-10"></div>
                         <div className="border-b-[3px] border-white opacity-50 w-2 lg:w-2 ml-10"></div>
                         <div className="border-b-[3px] border-white opacity-50 w-5 lg:w-10 ml-2"></div>
+                        <div className="border-b-[3px] border-white opacity-50 w-14 lg:w-40 ml-10"></div>
                     </div>
                     </div>
 
