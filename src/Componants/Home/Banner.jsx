@@ -87,11 +87,11 @@ const Banner = ({contactRef}) => {
                 {/* text */}
                 <div className="lg:w-[118.3%] lg:ml-[14.5rem]  flex flex-col justify-center items-start mb-16 mt-10 lg:mt-0">
                     <div className=" ">
-                        <h2 className="text-[#768B9C] font-bold lg:text-xl text-[16px] pb-[2px] ">My name is</h2>
-                        <h1 className="text-white lg:text-6xl text-5xl font-bold lg:pb-2 tracking-wide">Khadiza </h1>
-                        <h1 className="text-white font-bold lg:text-6xl text-3xl lg:pb-4 pb-2 tracking-wide">Jarin Roza.</h1>
+                        <h2 className="text-[#768B9C] font-bold lg:text-2xl text-[14px] pb-[2px] ">My name is</h2>
+                        <h1 className="text-white lg:text-7xl text-4xl font-bold lg:pb-2 tracking-wide">Khadiza </h1>
+                        <h1 className="text-white font-bold lg:text-5xl text-4xl lg:pb-4 pb-2 tracking-wide">Jarin Roza.</h1>
                         <hr className="pb-4 lg:w-96 w-[270px] border-[#768B9C] border-t-[3px]" />
-                        <p className="lg:pb-10 pb-5 text-white lg:text-sm text-[12px] font-bold">I like to craft solid and scalable front-end products <span className=""><br /></span> with great user experiences.</p>
+                        <p className="lg:pb-10 pb-5 text-white lg:text-base text-[10px] font-bold">I like to craft solid and scalable front-end products <span className=""><br /></span> with great user experiences.</p>
                         <div className="flex flex-row lg:gap-6 gap-3 ">
                         <a href="Khadiza_Jarin_Roza_resume.pdf" download>
                             <button className="btn lg:h-12 min-h-5 h-7 lg:px-4 px-2 text-[10px] lg:text-[14px] bg-[#768B9C] border-0 lg:shadow-black shadow-gray-900 lg:shadow-[5px_5px_10px_0_rgba(0,0,0,0.2)] shadow-[5px_5px_3px_0_rgba(0,0,0,0.9)] text-white lg:font-semibold hover:bg-[#768B9C] lg:pl-[20px] pl-[10px]">

@@ -103,16 +103,16 @@ const Contact = forwardRef((props, ref) => {
                     </form>
                     <ToastContainer />
                     {/* bottom border */}
-                    <div className="flex z-10 items-center absolute mt-[10rem] lg:left-[16.625rem] left-12 lg:top-[38.75rem] top-[31.5rem]">
+                    <div className="flex z-10 items-center absolute mt-[10rem] lg:left-[16.625rem] left-1 lg:top-[38.75rem] top-[26.5rem]">
                         <div className="border-b-[3px] border-white opacity-50 w-10 lg:w-40 "></div>
                         <div className="border-b-[3px] border-white opacity-50 w-1 lg:w-2 ml-8"></div>
                         <div className="border-b-[3px] border-white opacity-50 w-5 lg:w-10 ml-2"></div>
                         <div className="border-b-[3px] border-white opacity-50 w-14 lg:w-40 ml-10"></div>
                         <div className="border-b-[3px] border-white opacity-50 w-2 lg:w-2 ml-10"></div>
                         <div className="border-b-[3px] border-white opacity-50 w-5 lg:w-10 ml-2"></div>
-                        <div className="border-b-[3px] border-white opacity-50 w-14 lg:w-40 ml-10"></div>
+                        <div className="lg:hidden border-b-[3px] border-white opacity-50 w-14 lg:w-40 ml-10"></div>
                     </div>
-                    </div>
+                </div>
 
                     {/* texts for right side */}
                     <div className='lg:pt-10 flex flex-col lg:h-screen h-screen lg:gap-6 gap-6 justify-evenly lg:items-stretch items-stretch text-center' >
