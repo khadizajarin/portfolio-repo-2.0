@@ -1,5 +1,5 @@
 /* eslint-disable react/display-name */
-import { FaFacebookF, FaWhatsapp } from 'react-icons/fa6';
+import { FaFacebookF,} from 'react-icons/fa6';
 import { FaLinkedinIn } from "react-icons/fa";
 import { PiGithubLogoBold } from "react-icons/pi";
 import backgroundImage from './../../assets/Contact-bg.jpeg';

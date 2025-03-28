@@ -5,7 +5,7 @@ import TitleBar from "../CommonComps/TitleBar/TitleBar";
 
 const About = () => {
     return (
-        <div className="relative flex flex-col items-center bg-white lg:mt-8">
+        <div className="relative flex flex-col items-center bg-white ">
             {/* <!-- First vertical line --> */}
             <div className="absolute h-20 w-1 bg-[#768B9C] opacity-[0.09] lg:opacity-15  lg:left-[30.1875rem] left-16"></div>
             <div className="absolute h-20 w-1 bg-[#768B9C] opacity-[0.09] lg:opacity-15  lg:left-[30.1875rem] left-16 mt-[9.38rem]"></div>
