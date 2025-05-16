@@ -42,12 +42,21 @@ const Navbar = ({ skillsRef, workflowRef, experiencesRef, contactRef }) => {
           <div className="lg:text-[1.625rem] md:text-[1.5rem] text-[1rem] font-bold lg:ml-32 ml-[3.6875rem] lg:mt-9 mt-5 text-[#D2D7DF]">Hello,</div>   
         </div>
 
-        <div className="flex flex-row justify-center lg:items-center md:w-full lg:h-[7rem] bg-white">
+        {/* <div className="flex flex-row justify-center lg:items-center md:w-full lg:h-[7rem] bg-white">
           <ul className="z-10 menu menu-horizontal w-full flex flex-row justify-start lg:pl-7 bg-white lg:text-xl text-[0.875rem] lg:px-0 text-[#1E3660] lg:font-bold font-bold">
             <li onClick={() => scrollToSection(skillsRef)} className="lg:px-6 px-2 border-r-[3px] border-[#768B9C]">Skills</li>
             <li onClick={() => scrollToSection(workflowRef)} className="lg:px-6 px-2 border-r-[3px] border-[#768B9C]">Workflow</li>
             <li onClick={() => scrollToSection(experiencesRef)} className="lg:px-6 px-2 border-r-[3px] border-[#768B9C]">Experiences</li>
             <li onClick={() => scrollToSection(contactRef)} className="lg:px-6 px-2">Contact</li>
+          </ul>
+        </div>
+         */}
+        <div className="flex flex-row justify-center lg:items-center md:w-full lg:h-[7rem] bg-white">
+          <ul className="z-10 menu menu-horizontal w-full flex flex-row justify-start lg:pl-3 bg-white lg:text-xl text-[0.875rem] lg:px-0 text-[#1E3660] lg:font-bold font-bold">
+            <li onClick={() => scrollToSection(skillsRef)} className="lg:px-6 px-2 border-r-[3px] border-[#768B9C]">What I Do</li>
+            <li onClick={() => scrollToSection(workflowRef)} className="lg:px-6 px-2 border-r-[3px] border-[#768B9C]">My Approach</li>
+            <li onClick={() => scrollToSection(experiencesRef)} className="lg:px-6 px-2 border-r-[3px] border-[#768B9C]"> My Journey</li>
+            <li onClick={() => scrollToSection(contactRef)} className="lg:px-6 px-2">Get in Touch</li>
           </ul>
         </div>
       </div>

@@ -19,7 +19,7 @@ const Looking = () => {
            
 
             <div className="lg:h-[25rem] h-[17rem] flex flex-col justify-center items-center ">
-                <h4 className="relative z-10 text-[#768B9C] lg:text-[3.125rem] text-[1.8rem] leading-none font-bold">Looking for a</h4>
+                <h4 className="relative z-10 text-[#768B9C] lg:text-[3.125rem] text-[1.8rem] leading-none font-bold">Looking to Hire a </h4>
                 <h2 className="relative z-10 text-[#1E3660] lg:text-[5.625rem] text-[3.3rem] leading-none font-bold">React.JS</h2>
                 <h1 className="relative z-10 text-[#1E3660] lg:text-[5.625rem] text-[3.2rem] leading-none font-bold">Developer?</h1>
             </div>

@@ -6,8 +6,8 @@ import next from "../../assets/nexticon-01.png"
 const ClientsLove = () => {
     return (
         <div className="relative bg-white">
-            <div className="lg:pb-10 pb-[4.375rem] bg-white lg:pt-16 pt-11 flex flex-col justify-center items-center">
-                <TitleBar  title="Client’s Love"></TitleBar>
+            <div className="lg:pb-10 pb-[4.375rem] bg-white lg:pt-20 pt-11 flex flex-col justify-center items-center">
+                <TitleBar  title="Voices of Appreciation"></TitleBar>
             </div>
 
             <div className="bg-[#D6DCE1] lg:pb-32 pb-20 lg:mt-28 flex lg:flex-row flex-col justify-center items-center gap-16">

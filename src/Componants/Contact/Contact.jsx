@@ -74,7 +74,7 @@ const Contact = forwardRef((props, ref) => {
                 <div className='lg:h-screen h-[74rem] flex lg:flex-row flex-col lg:gap-[25rem] gap-[3rem] justify-center items-center pt-10 lg:pt-0'>
                     <div className='text-center'>
                         <p className='text-[#768B9C] font-bold text-md lg:pb-2'>How to Reach.</p>
-                        <h4 className='text-white font-bold text-[2.5rem] pb-1'>Contact Me</h4>
+                        <h4 className='text-white font-bold text-[2.5rem] pb-1'>Let&apos;s Collaborate</h4>
                         <p className='text-[#768B9C] font-bold text-md pb-9'>I want to hear from you</p>
 
                         {/* side 3 border */}
@@ -94,7 +94,7 @@ const Contact = forwardRef((props, ref) => {
                         </div>
                         {/* tell us about it */}
                         <div className="form-control pb-9">
-                            <textarea type="email" name="message" placeholder="Tell me all about it" className="bg-transparent border-b-2 border-[#768B9C] text-[#768B9C]  w-full" required />
+                            <textarea type="email" name="message" placeholder="Share Your Thoughts" className="bg-transparent border-b-2 border-[#768B9C] text-[#768B9C]  w-full" required />
                         </div>
                         {/* submit button */}
                         <div className="form-control mt-6">
@@ -117,19 +117,19 @@ const Contact = forwardRef((props, ref) => {
                     {/* texts for right side */}
                     <div className='lg:pt-10 flex flex-col lg:h-screen h-screen lg:gap-6 gap-6 justify-evenly lg:items-stretch items-stretch text-center' >
                         <div>
-                            <h4 className='text-white font-bold text-3xl mb-3'>Available Time</h4>
+                            <h4 className='text-white font-bold text-3xl mb-3'>Availability</h4>
                             <p className='text-[#768B9C] tracking-wide leading-loose text-md' style={{fontWeight: '550'}}>Monday - Saturday</p>
                             <p className='text-[#768B9C] tracking-wide text-md' style={{fontWeight: '550'}}>10am - 9pm</p>
                         </div>
 
                         <div>
-                            <h4 className='text-white font-bold text-3xl mb-3'>Address</h4>
+                            <h4 className='text-white font-bold text-3xl mb-3'>Find Me At</h4>
                             <p className='text-[#768B9C]  tracking-wide leading-loose text-md' style={{fontWeight: '550'}}>Satirpara, Narsingdi Sadar,</p>
                             <p className='text-[#768B9C]  tracking-wide text-md' style={{fontWeight: '550'}}>Narsingdi, Bangladesh</p>
                         </div>
 
                         <div>
-                            <h4 className='text-white font-bold text-3xl mb-3'>Support</h4>
+                            <h4 className='text-white font-bold text-3xl mb-3'>Contact Support</h4>
                             <p className='text-[#768B9C] tracking-wide leading-loose text-md' style={{fontWeight: '550'}}
                              onClick={handleEmailClick}>khadiza131310@gmail.com</p>
                             {/* <p className='text-[#768B9C] tracking-wide text-md' style={{fontWeight: '550'}}></p> */}

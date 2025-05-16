@@ -35,7 +35,7 @@ const About = () => {
 
             
             <div className="flex flex-col justify-center items-center lg:mt-16 mt-10">
-                <TitleBar title="About me"></TitleBar>
+                <TitleBar title="Behind the Code"></TitleBar>
                 <p className="text-[#768B9C] lg:text-lg text-[0.75rem] font-medium lg:mt-10 mt-7 lg:leading-loose lg:tracking-wider lg:text-center px-6 text-justify">
                 Hey there, I'm Khadiza Jarin Roza, a Frontend React Developer with a strong passion for creating sleek,
                 <span className="hidden lg:inline"><br /></span> user-friendly interfaces. Through an intensive 6-month course, I've mastered
@@ -45,7 +45,7 @@ const About = () => {
                 </p>
            
                 <div className="lg:mt-14 mt-8 text-center">
-                <TitleBar title="My Skills"></TitleBar>
+                <TitleBar title="What I Bring to the Table"></TitleBar>
                 <p className="text-[#768B9C] lg:text-lg text-[0.75rem] font-medium lg:mt-10 mt-7 lg:leading-loose lg:tracking-wider lg:text-center lg:mb-[4.5rem] mb-10 px-6 text-justify">
                 I'm passionately delving into the world of web development, driven by an insatiable desire
                 <span className="hidden lg:inline"><br /></span> to continuously learn and acquire new skills. Each day offers a fresh opportunity to tackle

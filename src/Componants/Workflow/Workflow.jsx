@@ -42,41 +42,26 @@ const Workflow = forwardRef((props, ref) => {
 
 
             {/* button and text */}
-            <TitleBar title={"Project Workflow"}></TitleBar>
+            <TitleBar title={"From Brief to Build: Project Workflow"}></TitleBar>
             <p className="text-[#768B9C] lg:text-lg text-[0.75rem] font-medium lg:mt-10 mt-7 lg:leading-loose lg:tracking-wider lg:text-center text-justify lg:mb-[3.5rem] mb-9 px-6"> There will be an initial meeting with the client to understand his requirements and the final <span className="hidden lg:inline"><br /></span> goal of the site. Afterward, I conduct research on similar projects and created a wireframe <span className="hidden lg:inline"><br /></span> to outline the structure and determine the layout of the portfolio. In the final stage,<span className="hidden lg:inline"><br /></span> I design the UI,  developed a comprehensive UI kit, and created a prototype <span className="hidden lg:inline"><br /></span> for the development phase to be carried out by the client.</p>
 
+        
+
             {/* Workflow */}
-            <div className=" flex lg:flex-row flex-col lg:gap-14 gap-6 justify-center items-center lg:mb-28 mb-10">
-                {/* button 1 */}
-                <button className="btn lg:h-[3rem] min-h-[1.5rem] h-[2rem] lg:text-[0.875rem] text-[0.75rem] bg-[#1E3660] hover:bg-[#1E3660] border-[5px] border-[#768B9C] rounded-full text-white ">
-                    <span className="border-white rounded-full border-4 mr-4"></span>
-                    Briefing
-                    <span className="border-white rounded-full border-4 ml-4"></span>
+            <div className="flex lg:flex-row flex-col lg:gap-14 gap-6 justify-center items-center lg:mb-28 mb-10">
+            {["Briefing", "MoodBoard", "Research", "Design & Coding"].map((label) => (
+                <button
+                key={label}
+                className="btn lg:h-[3rem] min-h-[1.5rem] h-[2rem] lg:text-[0.875rem] text-[0.75rem] bg-[#1E3660] hover:bg-[#1E3660] border-[5px] border-[#768B9C] rounded-full text-white"
+                >
+                <span className="border-white rounded-full border-4 mr-4"></span>
+                {label}
+                <span className="border-white rounded-full border-4 ml-4"></span>
                 </button>
-
-                {/* button 2*/}
-                <button className="btn lg:h-[3rem] min-h-[1.5rem] h-[2rem] lg:text-[0.875rem] text-[0.75rem] bg-[#1E3660] hover:bg-[#1E3660] border-[5px] border-[#768B9C] rounded-full text-white ">
-                    <span className="border-white rounded-full border-4 mr-4"></span>
-                    MoodBoard
-                    <span className="border-white rounded-full border-4 ml-4"></span>
-                </button>
-
-                {/* button 3 */}
-                <button className="btn lg:h-[3rem] min-h-[1.5rem] h-[2rem] lg:text-[0.875rem] text-[0.75rem] bg-[#1E3660] hover:bg-[#1E3660] border-[5px] border-[#768B9C] rounded-full text-white">
-                    <span className="border-white rounded-full border-4 mr-4"></span>
-                    Research
-                    <span className="border-white rounded-full border-4 ml-4"></span>
-                </button>
-
-                {/* button 4 */}
-                <button className="btn lg:h-[3rem] min-h-[1.5rem] h-[2rem] lg:text-[0.875rem] text-[0.75rem] bg-[#1E3660] hover:bg-[#1E3660] border-[5px] border-[#768B9C] rounded-full text-white">
-                    <span className="border-white rounded-full border-4 mr-4"></span>
-                    Design&Coding
-                    <span className="border-white rounded-full border-4 ml-4"></span>
-                </button>
-
-
+            ))}
             </div>
+
+
         </div>
     );
 });
