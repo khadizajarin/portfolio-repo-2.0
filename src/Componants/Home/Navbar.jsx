@@ -52,7 +52,7 @@ const Navbar = ({ skillsRef, workflowRef, experiencesRef, contactRef }) => {
         </div>
          */}
         <div className="flex flex-row justify-center lg:items-center md:w-full lg:h-[7rem] bg-white">
-          <ul className="z-10 menu menu-horizontal w-full flex flex-row justify-start lg:pl-3 bg-white lg:text-xl text-[0.84rem] lg:px-0 text-[#1E3660] lg:font-bold font-bold">
+          <ul className="z-10 menu menu-horizontal w-full flex flex-row justify-start lg:pl-3 bg-white lg:text-xl text-[0.718rem] lg:px-0 text-[#1E3660] lg:font-bold font-bold">
             <li onClick={() => scrollToSection(skillsRef)} className="lg:px-6 px-2 border-r-[3px] border-[#768B9C]">What I Do</li>
             <li onClick={() => scrollToSection(workflowRef)} className="lg:px-6 px-2 border-r-[3px] border-[#768B9C]">My Approach</li>
             <li onClick={() => scrollToSection(experiencesRef)} className="lg:px-6 px-2 border-r-[3px] border-[#768B9C]"> My Journey</li>
