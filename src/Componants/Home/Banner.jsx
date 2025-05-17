@@ -95,12 +95,13 @@ const Banner = ({contactRef}) => {
                         <div className="flex flex-row lg:gap-6 gap-3 ">
                         <a href="Khadiza(Junior-Web-Dev).pdf" download>
                             <button className="btn lg:h-12 min-h-5 h-7 lg:px-4 px-2 text-[10px] lg:text-[14px] bg-[#768B9C] border-0 lg:shadow-black shadow-gray-900 lg:shadow-[5px_5px_10px_0_rgba(0,0,0,0.2)] shadow-[5px_5px_3px_0_rgba(0,0,0,0.9)] text-white lg:font-semibold hover:bg-[#768B9C] lg:pl-[20px] pl-[10px]">
-                                Download Resume 
+                                View My Resume
                                 <HiMiniArrowDownTray className=" lg:w-6 lg:h-5 stroke-1"/> 
-                            </button></a>
+                            </button>
+                        </a>
                             <div onClick={() => scrollToSection(contactRef)}>
                                 <button className="btn lg:h-12 min-h-5 h-7 lg:px-4 px-2 text-[10px] lg:text-[14px] bg-[#768B9C] border-0 lg:shadow-black shadow-gray-900 lg:shadow-[5px_5px_10px_0_rgba(0,0,0,0.2)] shadow-[5px_5px_3px_0_rgba(0,0,0,0.9)] text-white font-semibold hover:bg-[#768B9C] lg:pl-[20px] pl-[10px]">
-                                    Hire Me
+                                    Open to Opportunities
                                     <LiaArrowRightSolid className= " lg:w-6 lg:h-5 stroke-1"/>
                                 </button>
                             </div>

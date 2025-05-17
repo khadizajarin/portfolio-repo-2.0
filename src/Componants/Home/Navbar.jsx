@@ -39,7 +39,7 @@ const Navbar = ({ skillsRef, workflowRef, experiencesRef, contactRef }) => {
             </div>
           
           
-          <div className="lg:text-[1.625rem] md:text-[1.5rem] text-[1rem] font-bold lg:ml-32 ml-[3.6875rem] lg:mt-9 mt-5 text-[#D2D7DF]">Hello,</div>   
+          <div className="lg:text-[1.625rem] md:text-[1.5rem] text-[1rem] font-bold lg:ml-32 ml-[3.6875rem] lg:mt-9 mt-5 text-[#D2D7DF]">Hi! Glad you’re here.</div>   
         </div>
 
         {/* <div className="flex flex-row justify-center lg:items-center md:w-full lg:h-[7rem] bg-white">
