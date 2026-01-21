@@ -27,8 +27,8 @@ const ClientsLove = () => {
                 </div>
                 <div className="relative -mt-8">
                     <ReviewBox
-                        name={"Nahiyan Ahmed"}
-                        designation={"CEO, Gearbros"}
+                        name={"Asif Chowdhury"}
+                        designation={"CEO, DCITM"}
                         review="Khadiza is a promising entry-level ReactJS developer. She has a solid grasp of the basics and writes clean, maintainable code. Khadiza is adept at debugging and excels in team collaborations. Her eagerness to learn and adapt to new technologies is impressive. With more experience, Khadiza is poised to become an exceptional developer, making her a valuable addition to any team."
                     ></ReviewBox>
                 </div>
