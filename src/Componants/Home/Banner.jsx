@@ -94,7 +94,7 @@ const Banner = ({contactRef}) => {
                         <p className="lg:pb-10 pb-5 text-white lg:text-base text-[10px] font-bold">I build sleek, scalable front-end experiences that people love to use. <span className=""><br /></span> Crafting beautiful code and intuitive interfaces is what drives me.</p>
                         <div className="flex flex-row lg:gap-6 gap-3 ">
                         <a
-                            href="https://drive.google.com/file/d/1NYnFjscT_xZzvqCLz13saRu_bLMFnzhW/view?usp=sharing"
+                            href="https://drive.google.com/file/d/123oWWdzj-1VnBDIKbJNETQLCPVUMVJsW/view?usp=sharing"
                             target="_blank"
                             rel="noopener noreferrer"
                             >
