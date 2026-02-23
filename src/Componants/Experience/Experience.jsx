@@ -8,6 +8,9 @@ import project3 from "../../assets/project-03.png";
 import project4 from "../../assets/project-04.png";
 import project5 from "../../assets/project-05.png";
 import project6 from "../../assets/project-06.png";
+import project7 from "../../assets/project-07.png";
+import project8 from "../../assets/project-08.png";
+import project9 from "../../assets/project-09.png";
 import SlidingImageText from "../CommonComps/SlidingImageText/SlidingImageText";
 import { forwardRef, useState } from "react";
 import { Link } from "react-router-dom";
@@ -25,25 +28,35 @@ const Experience = forwardRef(({ contactRef }, ref) => {
 //   };
 
   return (
-    <div ref={ref} className={`relative z-10 bg-[#1E3660] text-center  ${showMoreProjects ? 'lg:h-[85rem] md:h-[56.25rem]' : 'lg:h-[68rem] md:h-[56.25rem]'} pt-20 pb-10`}>
+    <div ref={ref} className={`relative z-10 bg-[#1E3660] text-center  ${showMoreProjects ? 'lg:h-[130rem] md:h-[66.25rem]' : 'lg:h-[68rem] md:h-[56.25rem]'} pt-20 pb-10`}>
       <TitleBar title="Projects That Define My Craft" style={{ backgroundColor: "rgba(0, 255, 0, 0)" }} />
       
-      <div className={`lg:px-72 px-6 lg:py-16 py-6 grid lg:grid-cols-3 grid-cols-1 lg:gap-8 gap-3 ${showMoreProjects ? 'lg:h-[120vh] h-[150vh]' : 'lg:h-[90vh] h-[120vh]'}`}>
-        {/* box 1 */}
-        <SlidingImageText 
-            images={project4} 
-            intervalDuration={4000} 
-            liveLink={'https://storied-donut-b1299b.netlify.app/'} 
-            github={'https://github.com/khadizajarin/job-seeker-client'} 
-            stack={'React, TypeScript, Tailwind CSS, React Router, Axios, React Hook Form, Zod, Firebase Auth, Vite, Zustand'} />
-
+      <div className={`lg:px-72 px-6 lg:py-16 py-6 grid lg:grid-cols-3 grid-cols-1 lg:gap-8 gap-3 ${showMoreProjects ? 'lg:h-[170vh] h-[180vh]' : 'lg:h-[90vh] h-[120vh]'}`}>
+          {/* box 8 */}
+            <SlidingImageText
+              images={project8}
+              intervalDuration={8000}
+              liveLink={'https://medi-bridge-ruddy.vercel.app/'}
+              github={'https://github.com/khadizajarin/MediBridge'}
+              stack={'React, Tailwind CSS, TypeScript, Vite, React Hook Form, Zod, TanStack Query, Axios'}
+            />
         {/* box 2 */}
-         <SlidingImageText 
+         {/* <SlidingImageText 
             images={project1} 
             intervalDuration={6000} 
             liveLink={'https://tranquil-nougat-6ba383.netlify.app/'} 
             github={'https://github.com/khadizajarin/thePortfolyo'} 
-            stack={'Next.js, React, Tailwind CSS, TypeScript, Framer Motion, Google Fonts, PostCSS'} />
+            stack={'Next.js, React, Tailwind CSS, TypeScript, Framer Motion, Google Fonts, PostCSS'} /> */}
+
+           {/* box 9 */}
+            <SlidingImageText 
+            className='' 
+            images={project9} 
+            intervalDuration={7000} 
+            liveLink={'https://job-task-resturent--landing-page.vercel.app/en'} 
+            github={'https://github.com/khadizajarin/job-task-resturent--landing-page'} 
+            stack={'React, Tailwind CSS, Vite, TypeScript'} />
+
 
         {/* box 3 */}
         <SlidingImageText 
@@ -54,35 +67,58 @@ const Experience = forwardRef(({ contactRef }, ref) => {
             github={'https://github.com/khadizajarin/open-table-design'} 
             stack={'Next.js, React, Tailwind CSS, Google Fonts (Ubuntu & Cinzel), ESLint, PostCSS'} />
 
-        {/* box 4 */}
-        <SlidingImageText 
-            className='lg:col-span-2' 
-            images={project2} 
-            intervalDuration={7000} 
-            liveLink={'https://silly-madeleine-e13392.netlify.app/'} 
-            github={'https://github.com/khadizajarin/task-homepage'} 
-            stack={'React, Tailwind CSS, Vite, TypeScript'} />
+         {/* box 7 */}
+            <SlidingImageText
+              className='lg:col-span-2'
+              images={project7}
+              intervalDuration={8000}
+              liveLink={'https://nigar-meherin-rini.vercel.app/'}
+              github={'https://github.com/khadizajarin/nigar-meherin-rini-portfolio'}
+              stack={'React, Tailwind CSS, TypeScript, Vite, React Hook Form, Zod, TanStack Query, Axios'}
+            />
 
         {showMoreProjects && (
           <>
-            {/* box 5 */}
+             {/* box 5 */}
             <SlidingImageText
               images={project6}
+              className='lg:row-span-2'
               intervalDuration={9000}
               liveLink={'https://better-mediustech.netlify.app/'}
               github={'https://github.com/khadizajarin/better-mediustech'}
               stack={'Next.js, React.js, TypeScript, Tailwind CSS, React Hook Form, Zod, TanStack Query, Zustand, Axios, Lucide React, Vite'}
             />
 
+            {/* box 1 */}
+            <SlidingImageText 
+            images={project4}   
+            intervalDuration={4000} 
+            liveLink={'https://storied-donut-b1299b.netlify.app/'} 
+            github={'https://github.com/khadizajarin/job-seeker-client'} 
+            stack={'React, TypeScript, Tailwind CSS, React Router, Axios, React Hook Form, Zod, Firebase Auth, Vite, Zustand'} />
+
+
+            {/* box 4 */}
+            <SlidingImageText 
+            images={project2} 
+            intervalDuration={7000} 
+            liveLink={'https://silly-madeleine-e13392.netlify.app/'} 
+            github={'https://github.com/khadizajarin/task-homepage'} 
+            stack={'React, Tailwind CSS, Vite, TypeScript'} />
+
+            
             {/* box 6 */}
             <SlidingImageText
-              className='lg:col-span-2'
+              className='lg:col-span-2' 
               images={project5}
               intervalDuration={8000}
               liveLink={'https://mobile-finance.netlify.app/'}
               github={'https://github.com/khadizajarin/mobile-finance-client'}
               stack={'React, Tailwind CSS, TypeScript, Vite, React Hook Form, Zod, TanStack Query, Axios'}
             />
+           
+
+           
           </>
         )}
       </div>
