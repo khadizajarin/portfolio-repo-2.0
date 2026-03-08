@@ -1,6 +1,4 @@
 /* eslint-disable react/prop-types */
-
-
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
@@ -53,10 +51,10 @@ const Navbar = ({ skillsRef, workflowRef, experiencesRef, contactRef }) => {
          */}
         <div className="flex flex-row justify-center lg:items-center md:w-full lg:h-[7rem] bg-white">
           <ul className="z-10 menu menu-horizontal w-full flex flex-row justify-start lg:pl-3 bg-white lg:text-xl text-[0.718rem] lg:px-0 text-[#1E3660] lg:font-bold font-bold">
-            <li onClick={() => scrollToSection(skillsRef)} className="lg:px-6 px-2 border-r-[3px] border-[#768B9C]">What I Do</li>
-            <li onClick={() => scrollToSection(workflowRef)} className="lg:px-6 px-2 border-r-[3px] border-[#768B9C]">My Approach</li>
-            <li onClick={() => scrollToSection(experiencesRef)} className="lg:px-6 px-2 border-r-[3px] border-[#768B9C]"> My Journey</li>
-            <li onClick={() => scrollToSection(contactRef)} className="lg:px-6 px-2">Get in Touch</li>
+            <li onClick={() => scrollToSection(skillsRef)} className="cursor-pointer lg:px-6 px-2 border-r-[3px] border-[#768B9C]">What I Do</li>
+            <li onClick={() => scrollToSection(workflowRef)} className=" cursor-pointer lg:px-6 px-2 border-r-[3px] border-[#768B9C]">My Approach</li>
+            <li onClick={() => scrollToSection(experiencesRef)} className="cursor-pointer lg:px-6 px-2 border-r-[3px] border-[#768B9C]"> My Journey</li>
+            <li onClick={() => scrollToSection(contactRef)} className="cursor-pointer lg:px-6 px-2">Get in Touch</li>
           </ul>
         </div>
       </div>
@@ -73,7 +71,7 @@ const Navbar = ({ skillsRef, workflowRef, experiencesRef, contactRef }) => {
           <div className="border-t-[3px] border-white opacity-50 lg:opacity-70 w-10 lg:w-20 "></div>
           <div className="border-t-[3px] border-white opacity-50 lg:opacity-70 w-2 lg:w-2 ml-5 lg:ml-8 "></div>
           <div className="border-t-[3px] border-white opacity-50 lg:opacity-70 w-10  lg:ml-2 "></div>
-          <div className=" border-t-[3px] border-white opacity-50 lg:opacity-70 w-12 lg:w-28 lg:ml-10 "></div>
+          <div className="border-t-[3px] border-white opacity-50 lg:opacity-70 w-12 lg:w-28 lg:ml-10 "></div>
           <div className="border-t-[3px] border-white opacity-50 lg:opacity-70 w-2 lg:w-4 ml-2 lg:ml-10 "></div>
           <div className="border-t-[3px] border-white opacity-50 lg:opacity-70 w-2 lg:w-10 ml-2 lg:ml-2 "></div>
         </div>

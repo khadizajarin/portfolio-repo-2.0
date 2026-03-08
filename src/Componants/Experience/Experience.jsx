@@ -31,7 +31,7 @@ const Experience = forwardRef(({ contactRef }, ref) => {
     <div ref={ref} className={`relative z-10 bg-[#1E3660] text-center  ${showMoreProjects ? 'lg:h-[130rem] md:h-[66.25rem]' : 'lg:h-[78rem] md:h-[56.25rem]'} pt-20 pb-10`}>
       <TitleBar title="Projects That Define My Craft" style={{ backgroundColor: "rgba(0, 255, 0, 0)" }} />
       
-      <div className={`lg:px-72 px-6 lg:py-16 py-6 grid lg:grid-cols-3 grid-cols-1 lg:gap-8 gap-3 ${showMoreProjects ? 'lg:h-[180vh] h-[180vh]' : 'lg:h-[100vh] h-[120vh]'}`}>
+      <div className={`lg:px-72 px-6 lg:py-16 py-6 grid lg:grid-cols-3 grid-cols-1 lg:gap-8 gap-3 ${showMoreProjects ? 'lg:h-[170vh] h-[160vh]' : 'lg:h-[100vh] h-[120vh]'}`}>
           {/* box 8 */}
             <SlidingImageText
               images={project8}
