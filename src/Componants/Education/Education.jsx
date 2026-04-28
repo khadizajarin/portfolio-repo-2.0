@@ -9,10 +9,9 @@ const items = [
     location: "Chittagong, Bangladesh",
     period: "2020 — 2025",
     result: "CGPA 3.48 / 4.00",
-    highlights: [
-      "Specialized in Web Technologies & Human-Computer Interaction",
-      "Final-year thesis on accessible React component patterns",
-      "Dean's List — 6 consecutive semesters",
+   highlights: [
+    "Focused on core computer science subjects like Data Structures, Algorithms, and Software Engineering",
+    "Engaged in numerous academic projects that strengthened problem‑solving and analytical thinking",
     ],
     icon: FaGraduationCap,
   },
@@ -66,9 +65,8 @@ const Education = () => {
         </div>
         
 
-        <p className="text-center text-muted-foreground max-w-2xl mx-auto mb-14 md:mb-20 text-base md:text-lg leading-relaxed">
-          A timeline of the studies, programs and milestones that shaped how I
-          think about building thoughtful, user-centered interfaces.
+        <p className="text-white lg:text-lg text-[0.75rem] font-medium lg:mt-10 mt-7 lg:leading-loose lg:tracking-wider lg:text-center px-6 text-justify">
+            A timeline of my academic journey that highlights the key studies and achievements that built my foundation in computer science.
         </p>
 
         {/* Timeline */}

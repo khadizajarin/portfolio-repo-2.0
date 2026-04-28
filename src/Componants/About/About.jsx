@@ -37,7 +37,7 @@ const About = () => {
             <div className="flex flex-col justify-center items-center lg:mt-16 mt-10">
                 <TitleBar title="Behind the Code"></TitleBar>
                 <p className="text-[#768B9C] lg:text-lg text-[0.75rem] font-medium lg:mt-10 mt-7 lg:leading-loose lg:tracking-wider lg:text-center px-6 text-justify">
-                Hey there, I'm Khadiza Jarin Roza, a Frontend React Developer with a strong passion for creating sleek,
+                Hey there, I'm Khadiza Jarin Roza, a Frontend focused React Developer with a strong passion for creating sleek,
                 <span className="hidden lg:inline"><br /></span> user-friendly interfaces. Through an intensive 6-month course, I've mastered
                 <span className="hidden lg:inline"><br /></span> React and a comprehensive suite of front-end technologies. <span className="lg:hidden inline"><br /> <br /></span> I thrive on transforming
                 <span className="hidden lg:inline"><br /></span> complex ideas into engaging, seamless user experiences and
