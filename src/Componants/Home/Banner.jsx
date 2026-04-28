@@ -87,7 +87,7 @@ const Banner = ({contactRef}) => {
                 {/* text */}
                 <div className="lg:w-[118.3%] lg:ml-[14.5rem]  flex flex-col justify-center items-start mb-16 mt-10 lg:mt-0">
                     <div className=" ">
-                        <h2 className="text-[#768B9C] font-bold lg:text-2xl text-[14px] pb-[2px] ">My name is</h2>
+                        <h2 className="text-[#768B9C] font-bold lg:text-2xl text-[14px] pb-[2px] ">Frontend Focused Full Stack Developer</h2>
                         <h1 className="text-white lg:text-7xl text-4xl font-bold lg:pb-2 tracking-wide">Khadiza </h1>
                         <h1 className="text-white font-bold lg:text-5xl text-4xl lg:pb-4 pb-2 tracking-wide">Jarin Roza.</h1>
                         <hr className="pb-4 lg:w-96 w-[270px] border-[#768B9C] border-t-[3px]" />

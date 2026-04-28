@@ -12,6 +12,7 @@ import Navbar from './Componants/Home/Navbar'
 import Banner from './Componants/Home/Banner'
 import ClientsLove from './Componants/ClientsLove/ClientsLove'
 import Others from './Componants/Others/Others'
+import Education from './Componants/Education/Education'
 //import scroll from "./assets/icon-01 (2).png";
 
 function App() {
@@ -56,6 +57,7 @@ function App() {
         contactRef={contactRef} ></Navbar>
     <Banner contactRef={contactRef}></Banner>
     <About></About>
+    <Education></Education>
     <Skills ref={skillsRef}></Skills>
     <Workflow ref={workflowRef}></Workflow>
     <Experience contactRef={contactRef} ref={experiencesRef}></Experience>
