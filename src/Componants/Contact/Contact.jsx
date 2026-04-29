@@ -136,7 +136,7 @@ const Contact = forwardRef((props, ref) => {
                         </div>
 
                         <div className='flex justify-center gap-6'>
-                            <div className='border-0 bg-[#768B9C] w-10 h-10 rounded-full text-white flex justify-center items-center'><Link to="https://www.facebook.com/khadizajarinroza?mibextid=gik2fB"><FaFacebookF></FaFacebookF></Link></div>
+                            <div className='border-0 bg-[#768B9C] w-10 h-10 rounded-full text-white flex justify-center items-center'><Link to="https://www.facebook.com/rozenmund04"><FaFacebookF></FaFacebookF></Link></div>
                             <div className='border-0 bg-[#768B9C] w-10 h-10 rounded-full text-white flex justify-center items-center'><Link to="https://github.com/khadizajarin"><PiGithubLogoBold></PiGithubLogoBold></Link></div>
                             <div className='border-0 bg-[#768B9C] w-10 h-10 rounded-full text-white flex justify-center items-center'><Link to="https://www.linkedin.com/in/khadiza-jarin-roza/"><FaLinkedinIn></FaLinkedinIn></Link></div>
                             {/* <div className='border-0 bg-[#768B9C] w-10 h-10 rounded-full text-white flex justify-center items-center'><Link to="https://wa.me/"><FaWhatsapp></FaWhatsapp></Link></div> */}
