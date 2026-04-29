@@ -35,7 +35,7 @@ const Footer = () => {
                 <FaArrowUp className="h-[0.875rem] w-[0.875rem]"></FaArrowUp>
             </button>
             <aside className="lg:text-[1rem]  text-[0.75rem]  ">
-                <p className="text-center">Terms & Conditions | Privacy Policy | FAQs</p>
+                <p className="text-center">Khadiza Jarin Roza | Frontend Focused Developer</p>
             </aside>
             </footer>
         </div>
