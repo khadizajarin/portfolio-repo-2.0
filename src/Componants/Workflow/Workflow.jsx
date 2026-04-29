@@ -48,11 +48,11 @@ const Workflow = forwardRef((props, ref) => {
         
 
             {/* Workflow */}
-            <div className="flex lg:flex-row flex-col lg:gap-14 gap-6 justify-center items-center lg:mb-28 mb-10">
+            <div className="flex lg:flex-row flex-col lg:gap-14 gap-6 justify-center items-center lg:mb-28 mb-10 z-20">
             {["Briefing", "Wireframing", "Prototyping", "Design & Coding", "Testing", "Launch", "Feedback & Iteration"].map((label) => (
                 <button
                 key={label}
-                className="btn lg:h-[3rem] min-h-[1.5rem] h-[2rem] lg:text-[0.875rem] text-[0.75rem] bg-[#1E3660] hover:bg-[#1E3660] border-[5px] border-[#768B9C] rounded-full text-white"
+                className="btn lg:h-[3rem] min-h-[1.5rem] h-[2rem] lg:text-[0.875rem] text-[0.75rem] bg-[#1E3660] hover:bg-[#1E3660] border-[5px] border-[#768B9C] rounded-full text-white lg:shadow-gray-500 shadow-gray-400 lg:shadow-[5px_5px_10px_0_rgba(0,0,0,0.1)] shadow-[2px_3px_3px_0_rgba(0,0,0,0.9)]"
                 >
                 <span className="border-white rounded-full border-4 mr-4"></span>
                 {label}

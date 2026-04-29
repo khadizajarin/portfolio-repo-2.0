@@ -7,7 +7,7 @@ const Skills = forwardRef((props, ref) => {
 
 
     return (
-        <div  ref={ref} className="relative lg:h-[45.75rem] h-[21.875rem] bg-[#E4E8EB] lg:px-52 md:px-60 px-[2.5rem] lg:py-16 py-9 grid grid-cols-2 justify-center items-center z-10">
+        <div  ref={ref} className="relative lg:h-[48rem] h-[23rem] bg-[#E4E8EB] lg:px-52 md:px-60 px-[2.5rem] lg:py-16 py-9 grid grid-cols-2 justify-center items-center z-10">
 
             {/* box 1 */}
             <div className="relative h-full grid grid-rows-3 gap-4 items-start pr-7">
@@ -16,7 +16,7 @@ const Skills = forwardRef((props, ref) => {
                 </div>
 
                 {/* connecting line 1 */}
-                <div className="absolute lg:left-[30.1875rem] left-[3.6875rem] lg:top-[10.625rem] top-[5.3125rem] lg:border-l-[0.625rem] border-l-[0.3125rem] lg:border-b-[0.625rem] border-b-[0.3125rem] lg:rounded-bl-[1.125rem] rounded-bl-lg  border-[#1E3660]  lg:h-14 h-7 lg:w-64 w-36">
+                <div className="absolute lg:left-[30.1875rem] left-[3.6875rem] lg:top-[10.625rem] top-[5.3125rem] lg:border-l-[0.625rem] border-l-[0.3125rem] lg:border-b-[0.625rem] border-b-[0.3125rem] lg:rounded-bl-[1.125rem] rounded-bl-lg  border-[#1E3660]  lg:h-14 h-7 lg:w-64 w-36 ">
                 </div>
             </div>
 
@@ -38,7 +38,7 @@ const Skills = forwardRef((props, ref) => {
                     <Box text="70%" title="JS / TS" subtext="(Intermediate) " delay={4} duration={2}/>
                 </div>
                 {/* connecting line 3 */}
-                <div className="absolute lg:left-[31.875rem] lg:top-[8.125rem] left-[3.6875rem] top-[2.8125rem] lg:border-l-[0.625rem] border-l-[0.3125rem] lg:border-b-[0.625rem] border-b-[0.3125rem] lg:rounded-bl-[1.125rem] rounded-bl-lg border-[#1E3660] lg:h-14 h-7 lg:w-60 w-36">
+                <div className="absolute lg:left-[31.875rem] lg:top-[8.125rem] left-[3.6875rem] top-[2.8125rem] lg:border-l-[0.625rem] border-l-[0.3125rem] lg:border-b-[0.625rem] border-b-[0.3125rem] lg:rounded-bl-[1.125rem] rounded-bl-lg border-[#1E3660] lg:h-14 h-7 lg:w-60 w-36 ">
             </div>
 
                 

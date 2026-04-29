@@ -51,7 +51,7 @@ const Education = () => {
       className="relative w-full bg-[#1E3660] text-white py-20 md:py-28 px-6 md:px-16 overflow-hidden"
     >
       {/* Decorative dashed lines */}
-      <div className="pointer-events-none absolute inset-0">
+      <div className="pointer-events absolute inset-0">
         <div className="dashed-divider absolute top-12 left-0 right-0" />
         <div className="dashed-divider absolute bottom-12 left-0 right-0" />
         <div className="dashed-divider-v absolute top-0 bottom-0 left-12" />
@@ -61,7 +61,7 @@ const Education = () => {
       <div className="relative max-w-6xl mx-auto">
         {/* Pill heading */}
         <div className="flex justify-center mb-6">
-            <TitleBar title="My Education" style={{ backgroundColor: "rgba(0, 255, 0, 0)" }} />
+            <TitleBar title="My Education Journey" style={{ backgroundColor: "rgba(0, 255, 0, 0)" }} />
         </div>
         
 
@@ -85,7 +85,7 @@ const Education = () => {
                   <Icon className="h-5 w-5 md:h-7 md:w-7 text-foreground" />
                 </div>
 
-                <article className="rounded-2xl border border-foreground/15 bg-card/60 backdrop-blur-sm p-6 md:p-8 transition-all duration-300 hover:border-foreground/40 hover:-translate-y-1 hover:shadow-2xl">
+                <article className="rounded-2xl border border-foreground/15 bg-card/60 backdrop-blur-sm p-6 md:p-8 transition-all duration-300 border-foreground/40 hover:border-foreground/60 hover:-translate-y-1 lg:shadow-gray-900/50 shadow-gray-800/50 lg:shadow-[10px_10px_20px_0_rgba(0,0,0,0.1)] shadow-[5px_5px_5px_0_rgba(0,0,0,0.9)]">
                   <div className="flex flex-wrap items-start justify-between gap-3 mb-3">
                     <div>
                       <h3 className="text-xl md:text-2xl font-bold leading-tight">

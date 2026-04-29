@@ -38,7 +38,7 @@ const Box = ({ text,title, subtext,duration, delay }) => {
     return (
         <div className="relative flex justify-center items-center lg:w-[21.875rem] w-[7.5rem] lg:h-[10.625rem] h-[5.3125rem]">
             {/* Outer border */}
-            <div className="absolute inset-0 lg:rounded-[1.125rem] rounded-[0.5625rem] lg:border-[0.625rem] border-[0.3125rem] border-[#A8B2C1] "></div>
+            <div className="absolute inset-0 lg:rounded-[1.125rem] rounded-[0.5625rem] lg:border-[0.625rem] border-[0.3125rem] border-[#A8B2C1] lg:shadow-gray-500 shadow-gray-400 lg:shadow-[10px_10px_20px_0_rgba(0,0,0,0.1)] shadow-[5px_5px_5px_0_rgba(0,0,0,0.9)]"></div>
             
             {/* Gradient border */}
             <motion.div
