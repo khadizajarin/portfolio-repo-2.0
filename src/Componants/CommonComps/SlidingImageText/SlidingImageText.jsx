@@ -1,24 +1,11 @@
 /* eslint-disable react/prop-types */
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { RiLinksFill } from "react-icons/ri";
 import { FiGithub } from "react-icons/fi";
 import { Link } from 'react-router-dom';
 
-const SlidingImageText = ({ images, intervalDuration, className, liveLink, github, stack }) => {
-  const [showImage, setShowImage] = useState(true);
+const SlidingImageText = ({ images, className, liveLink, github, stack }) => {
   const [isHovered, setIsHovered] = useState(false);
-
-  useEffect(() => {
-    let interval;
-
-    if (!isHovered) {
-      interval = setInterval(() => {
-        setShowImage(prev => !prev); // Toggle between showing image and text
-      }, intervalDuration); // Change every specified interval
-    }
-
-    return () => clearInterval(interval); // Cleanup interval on component unmount
-  }, [intervalDuration, isHovered]);
 
   return (
     <div 
@@ -26,25 +13,40 @@ const SlidingImageText = ({ images, intervalDuration, className, liveLink, githu
       onMouseEnter={() => setIsHovered(true)} 
       onMouseLeave={() => setIsHovered(false)}
     >
-      {/* Image container */}
-      <div className={`absolute top-0   w-full h-full flex justify-center items-center transition-transform duration-500 ${showImage ? 'translate-x-0' : '-translate-x-full'}`}>
-        <div className="bg-cover w-full h-full" style={{ 
-          backgroundImage: `url(${images})`
-        }}>
-          {/* Your image content */}
-        </div>
+      {/* Image */}
+      <div className={`absolute top-0 w-full h-full transition-transform duration-300 ${
+        isHovered ? '-translate-x-full' : 'translate-x-0'
+      }`}>
+        <div 
+          className="bg-cover w-full h-full"
+          style={{ backgroundImage: `url(${images})` }}
+        />
       </div>
 
-      {/* Text container */}
-      <div className={`absolute top-0 lg:-left-1  w-full h-full flex justify-center items-center transition-transform duration-500 ${showImage ? '-translate-x-full' : 'translate-x-0'}`}>
-        {/* Your text content */}
+      {/* Text */}
+      <div className={`absolute top-0 w-full h-full flex justify-center items-center transition-transform duration-500 ${
+        isHovered ? 'translate-x-0' : 'translate-x-full'
+      }`}>
         <div className="text-center text-white">
-          <p className=" lg:text-xl text-sm lg:my-4 my-1 lg:px-4 px-4">Check out the Live Site and GitHub Repository!</p>
-          <h1 className="flex justify-center items-center lg:gap-6 gap-1 text-xs"> 
-            <Link to={liveLink}><RiLinksFill className='border-0 bg-[#768B9C] lg:w-20 w-10 lg:h-20 h-10 lg:p-4 p-1 mb-1 flex justify-center items-center'/>LiveLink</Link>
-            <Link to={github}><FiGithub className='border-0 bg-[#768B9C] lg:w-20 w-10 lg:h-20 h-10 lg:p-4 p-1 mb-1 flex justify-center items-center'/> Github </Link>
-          </h1>
-          <p className=" lg:text-xl text-sm lg:my-4 my-1 lg:px-4 px-4">Tech stack : {stack}</p>
+          <p className="lg:text-xl text-sm lg:my-4 my-1 px-4">
+            Check out the Live Site and GitHub Repository!
+          </p>
+
+          <div className="flex justify-center items-center lg:gap-6 gap-2 text-xs">
+            <Link to={liveLink}>
+              <RiLinksFill className='bg-[#768B9C] lg:w-20 w-10 lg:h-20 h-10 lg:p-4 p-1 flex justify-center items-center'/>
+              LiveLink
+            </Link>
+
+            <Link to={github}>
+              <FiGithub className='bg-[#768B9C] lg:w-20 w-10 lg:h-20 h-10 lg:p-4 p-1 flex justify-center items-center'/>
+              Github
+            </Link>
+          </div>
+
+          <p className="lg:text-xl text-sm lg:my-4 my-1 px-4">
+            Tech stack : {stack}
+          </p>
         </div>
       </div>
     </div>
