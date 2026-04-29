@@ -18,7 +18,7 @@ const items = [
   {
     degree: "Higher Secondary Certificate",
     field: "Science Group",
-    institution: "Abdul Kadir Mollad City College",
+    institution: "Abdul Kadir Mollah City College",
     location: "Narsingdi, Bangladesh",
     period: "2017 — 2019",
     result: "GPA 5.00 / 5.00",
