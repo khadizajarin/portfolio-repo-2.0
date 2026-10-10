@@ -118,14 +118,14 @@ const Contact = forwardRef((props, ref) => {
                     <div className='lg:pt-10 flex flex-col lg:h-screen h-screen lg:gap-6 gap-6 justify-evenly lg:items-stretch items-stretch text-center' >
                         <div>
                             <h4 className='text-white font-bold text-3xl mb-3'>Availability</h4>
-                            <p className='text-[#768B9C] tracking-wide leading-loose text-md' style={{fontWeight: '550'}}>Monday - Saturday</p>
-                            <p className='text-[#768B9C] tracking-wide text-md' style={{fontWeight: '550'}}>10am - 9pm</p>
+                            <p className='text-[#768B9C] tracking-wide leading-loose text-md' style={{fontWeight: '550'}}>Monday - Friday</p>
+                            <p className='text-[#768B9C] tracking-wide text-md' style={{fontWeight: '550'}}>8am - 4pm</p>
                         </div>
 
                         <div>
                             <h4 className='text-white font-bold text-3xl mb-3'>Find Me At</h4>
-                            <p className='text-[#768B9C]  tracking-wide leading-loose text-md' style={{fontWeight: '550'}}>Satirpara, Narsingdi Sadar,</p>
-                            <p className='text-[#768B9C]  tracking-wide text-md' style={{fontWeight: '550'}}>Narsingdi, Bangladesh</p>
+                            {/* <p className='text-[#768B9C]  tracking-wide leading-loose text-md' style={{fontWeight: '550'}}>Satirpara, Narsingdi Sadar,</p> */}
+                            <p className='text-[#768B9C]  tracking-wide text-md' style={{fontWeight: '550'}}>Gjøvik, Norway</p>
                         </div>
 
                         <div>
